@@ -7,20 +7,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
-<div class = "liam">
-  <div class = "refer">
-    <a href="liam">Daniel Peterschmidt</a>
-    <ul>
-      <li class = "work"><%= link_to 'Work', liam_path %></li>
-      <li class = "bio"><%= link_to 'About', about_path %></li>
-    </ul>
-    <div class = "links">
-      <%= link_to 'Work', index_path, {:class => "hvr-fade2"} %>
-      &nbsp;
-      <%= link_to 'About', about_path, {:class => "hvr-fade2"} %>
-    </div>
-  </div>
-</div>
+	<div class = "liam">
+	  <div class = "refer">
+	    <a href="liam">Daniel Peterschmidt</a>
+	    <div class = "links">
+	      <a class = "hvr-fade2" href="/index.html">Work</a>
+	      &nbsp;&nbsp;
+	      <a  class = "hvr-fade2" href="/about.html">About</a>
+	    </div>
+	  </div>
+	</div>
 <div class = "padding">
 	<!-- <div class = "h2">I'm Daniel Peterschmidt and I'm a Product Development Intern at NPR.</div> -->
 
@@ -58,6 +54,18 @@
 		</tr>
 	</table>
 
+</div>
+
+<div class = "footer">
+  Daniel Peterschmidt © 2015
+  <br>
+  <a class = "hvr-fade2" href="https://www.linkedin.com/pub/daniel-peterschmidt/48/741/995">LinkedIn</a>
+  &nbsp;&nbsp;
+  <a class = "hvr-fade2" href="https://twitter.com/dantheman47">Twitter</a>
+  &nbsp;&nbsp;
+  <a class = "hvr-fade2" href="http://dpeterschmidt.vsco.co/">VSCO Grid</a>
+  &nbsp;&nbsp;
+  <a class = "hvr-fade2" href="https://github.com/dpeterschmidt">Github</a>
 </div>
 </body>
 </html>
