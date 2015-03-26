@@ -222,14 +222,14 @@ table, td {
     color: #efefef;
   }
 
-a {
+/*a {
   color: white
-}
+}*/
 
-a:hover {
+/*a:hover {
   color: white;
   text-decoration: none;
-}
+}*/
 
 .links {
   font-family: 'Open Sans', sans-serif;
