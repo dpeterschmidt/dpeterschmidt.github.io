@@ -6,6 +6,21 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
+<body>
+<div class = "liam">
+  <div class = "refer">
+    <a href="liam">Daniel Peterschmidt</a>
+    <ul>
+      <li class = "work"><%= link_to 'Work', liam_path %></li>
+      <li class = "bio"><%= link_to 'About', about_path %></li>
+    </ul>
+    <div class = "links">
+      <%= link_to 'Work', index_path, {:class => "hvr-fade2"} %>
+      &nbsp;
+      <%= link_to 'About', about_path, {:class => "hvr-fade2"} %>
+    </div>
+  </div>
+</div>
 <div class = "padding">
 	<!-- <div class = "h2">I'm Daniel Peterschmidt and I'm a Product Development Intern at NPR.</div> -->
 
@@ -44,4 +59,6 @@
 	</table>
 
 </div>
+</body>
+</html>
 
