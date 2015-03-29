@@ -1,0 +1,46 @@
+@media (min-width: 360px) {
+  
+      .liam {
+        font-family: 'Merriweather', serif;
+        background-color: #435784;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+      }
+      .refer {
+        color: white;
+        font-size: 42px;
+        font-weight: 700;
+        padding-top: 20px;
+        text-align: center;  
+      }
+      .links {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+      }
+
+      .padding {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .sample {
+        width: 100%;
+      }
+
+      .h3 {
+        padding-left: 0px;
+      }
+
+      table, td, tr {
+        display: block;
+        padding-right: 0px;
+      }
+
+      .posters {
+        padding-right: 0px;
+        padding-left: 0px;
+      }  
+  }
