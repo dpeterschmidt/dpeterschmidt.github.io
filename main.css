@@ -154,7 +154,8 @@ a:hover {
 }
 
 .circles {
-  
+  display: grid;
+  padding: 20px;
 }
     
 /*Tablet*/
