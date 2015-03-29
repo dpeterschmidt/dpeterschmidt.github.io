@@ -147,6 +147,11 @@ a:hover {
   -moz-border-radius: 150px;
   background: url(/images/writing.jpg) no-repeat;
   }
+
+  .tpadding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
     
 /*Tablet*/
 @media (min-width: 768px) { 
