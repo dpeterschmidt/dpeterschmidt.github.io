@@ -169,7 +169,7 @@ img {
     overflow: hidden;
 }
 
-table, td {
+table, tr, td {
   color: black;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
