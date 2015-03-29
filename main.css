@@ -66,6 +66,7 @@
 .table>thead>tr>td, .table>thead>tr>th {
   padding: 0px;
   border-top: transparent;
+  padding-bottom: 20px;
 }
 
 table, tr, td {
