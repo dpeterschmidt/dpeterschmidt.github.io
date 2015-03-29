@@ -120,6 +120,33 @@ a:hover {
   padding-bottom: 22px;
   color: #efefef;
 }
+
+.circular1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(/images/trees.jpg) no-repeat;
+  }
+
+.circular2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(/images/bridge.jpg) no-repeat;
+  }
+
+.circular3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(/images/writing.jpg) no-repeat;
+  }
     
 /*Tablet*/
 @media (min-width: 768px) { 
