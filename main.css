@@ -45,11 +45,12 @@
 
 .h3 {
   color: rgb(94, 93, 93);
-  font-size: 22px;
+  font-size: 32px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   padding-left: 0px;
   margin-top: 0px;
+  padding-top: 10px;
 }
 
 .h4 {
