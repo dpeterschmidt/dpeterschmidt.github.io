@@ -1,4 +1,5 @@
 /*Phone*/
+html, body {
       .liam {
         font-family: 'Merriweather', serif;
         background-color: #435784;
@@ -42,9 +43,11 @@
         padding-right: 0px;
         padding-left: 0px;
       }
+    }
 
 /*Tablet*/
 @media (min-width: 768px) { 
+  html, body {
     .liam {
       font-family: 'Merriweather', serif;
       background-color: #435784;
@@ -79,6 +82,7 @@
       padding-left: 0px;
     }
   }
+}
 
 /*Desktop*/
 @media (min-width: 992px) {
@@ -798,4 +802,4 @@ h1 {
       -ms-transition: all 0.3s ease-out; 
        -o-transition: all 0.3s ease-out; 
           transition: all 0.3s ease-out;*/
-}
+
