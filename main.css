@@ -8,7 +8,7 @@
 }
 .refer {
   color: white;
-  font-size: 65px;
+  font-size: 42px;
   font-weight: 700;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -16,7 +16,7 @@
 }
 .links {
   font-family: 'Open Sans', sans-serif;
-  font-size: 41px;
+  font-size: 30px;
   font-weight: normal;
 }
 
@@ -114,7 +114,7 @@ a:hover {
 .footer {
   background-color: #505050;
   text-align: center;
-  font-size: 15px;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   padding-top: 22px;
   padding-bottom: 22px;
