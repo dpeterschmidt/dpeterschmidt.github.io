@@ -60,9 +60,10 @@
   margin-top: 20px;
 }
 
-table, td, tr {
+table, td, tr, td {
   /*display: block;*/
   padding-right: 0px;
+  border-top: transparent;
 }
 
 a {
@@ -97,6 +98,8 @@ a:hover {
 .posters {
   padding-right: 0px;
   padding-left: 0px;
+  width: inherit;
+  padding-top: 10px;
 }
 
 .footer {
