@@ -61,7 +61,7 @@
 }
 
 table, td, tr {
-  display: block;
+  /*display: block;*/
   padding-right: 0px;
 }
 
