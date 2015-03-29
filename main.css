@@ -10,7 +10,8 @@
   color: white;
   font-size: 42px;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   text-align: center;  
 }
 .links {
@@ -29,8 +30,34 @@
   width: 100%;
 }
 
+.h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: #C58A59;
+  font-size: 33px;
+}
+
+.h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
 .h3 {
+  color: rgb(94, 93, 93);
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   padding-left: 0px;
+  margin-top: 0px;
+}
+
+.h4 {
+  color: rgb(94, 93, 93);
+  font-size: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-top: 20px;
 }
 
 table, td, tr {
@@ -38,9 +65,48 @@ table, td, tr {
   padding-right: 0px;
 }
 
+a {
+  color: white
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.hvr-fade2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade2:hover, .hvr-fade2:focus, .hvr-fade2:active {
+  background-color: rgba(255, 255, 255, 0);
+  color: #C58A59;
+}
+
 .posters {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.footer {
+  background-color: #505050;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  color: #efefef;
 }
     
 /*Tablet*/
@@ -131,7 +197,8 @@ table, td {
 .refer {
   color: white;
   font-size: 60px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
+  padding-top: 5px;
   font-weight: 700;
   text-align: inherit; 
 }
