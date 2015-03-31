@@ -70,7 +70,7 @@
 }
 
 table, tr, td {
-  display: block;
+  /*display: block;*/
   padding-right: 0px;
   border-top: transparent;
 }
