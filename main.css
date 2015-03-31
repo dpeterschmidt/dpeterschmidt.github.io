@@ -221,7 +221,7 @@ table, tr, td {
   font-weight: 300;
   text-align: center;
   /*padding-right: 81px;*/
-  display: table-cell;
+  /*display: table-cell;*/
 }
 
 .sample {
