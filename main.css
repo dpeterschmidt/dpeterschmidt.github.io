@@ -31,10 +31,8 @@
 }
 
 .sample2 {
-  /*position: relative;*/
   width: 100%;
   height: 100%;
-  float: left;
 }
 
 .h1 {
@@ -136,6 +134,8 @@ a:hover {
   font-family: 'Merriweather', serif;
   font-size: 100px;
   position: absolute;
+  padding-top: 17px;
+  padding-left: 174px;
   color: white;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -276,6 +276,11 @@ table, tr, td {
   height: 100%;
   float: left;
 }*/
+
+.hvr-fade {
+  padding-top: 71px;
+  padding-left: 386px;
+}
 
 .padding {
   padding-left: 100px;
