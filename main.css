@@ -123,8 +123,6 @@ a:hover {
 .fwidth {
   position: relative;
   width: 100%;
-  text-align: center;
-  /*color: white;*/
 }
 
 .hvr-fade {
