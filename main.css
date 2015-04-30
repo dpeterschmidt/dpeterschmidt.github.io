@@ -326,6 +326,10 @@ table, tr, td {
   margin-bottom: 0.5em;
 }
 
+.mopadding {
+  padding-left: 20px;
+}
+
 .footer {
   background-color: #505050;
   text-align: center;
