@@ -520,7 +520,7 @@ body.about li.about {
 
 .hvr-fade {
   position: absolute;
-  color: black;
+  color: white;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
