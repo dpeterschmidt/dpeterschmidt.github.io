@@ -121,6 +121,8 @@ a:hover {
 }
 
 .fwidth {
+  position: relative;
+  width: 100%;
   text-align: center;
   /*color: white;*/
 }
@@ -517,6 +519,7 @@ body.about li.about {
 }
 
 .hvr-fade {
+  position: absolute;
   color: black;
   display: inline-block;
   vertical-align: middle;
