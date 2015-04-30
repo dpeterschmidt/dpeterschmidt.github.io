@@ -30,6 +30,13 @@
   width: 100%;
 }
 
+.sample2 {
+  /*position: relative;*/
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
 .h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
@@ -130,8 +137,6 @@ a:hover {
   font-size: 100px;
   position: absolute;
   color: white;
-/*  display: inline-block;
-  vertical-align: middle;*/
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -219,6 +224,7 @@ a:hover {
   }
 
   .sample {
+    /*position: relative;*/
     width: 100%;
   }
 
@@ -258,10 +264,18 @@ table, tr, td {
 }
 
 .sample {
-  width: 532px;
+  /*position: relative;*/
+  width: 50%;
   height: 100%;
   float: left;
 }
+
+/*.sample2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+}*/
 
 .padding {
   padding-left: 100px;
