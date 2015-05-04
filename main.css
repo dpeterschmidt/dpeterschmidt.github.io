@@ -137,6 +137,7 @@ a:hover {
   padding-top: 17px;
   padding-left: 174px;
   color: white;
+  /*Animation code*/
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -152,6 +153,10 @@ a:hover {
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: rgba(255, 255, 255, 0);
   color: #C58A59;
+}
+
+.iblock {
+  margin-bottom: 8px;
 }
 
 /*.overlay {
@@ -333,6 +338,10 @@ table, tr, td {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin-top: 20px;
+}
+
+.iblock {
+  margin-bottom: 8px;
 }
 
 /*.circular1 {
