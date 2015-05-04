@@ -130,12 +130,12 @@ a:hover {
   width: 100%;
 }
 
-.hvr-fade {
+.hvr-fadea {
   font-family: 'Merriweather', serif;
   font-size: 100px;
   position: absolute;
-  padding-top: 17px;
-  padding-left: 174px;
+  padding-top: 6px;
+  padding-left: 236px;
   color: white;
   /*Animation code*/
   -webkit-transform: translateZ(0);
@@ -150,10 +150,62 @@ a:hover {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+.hvr-fadea:hover, .hvr-fadea:focus, .hvr-fadea:active {
   background-color: rgba(255, 255, 255, 0);
   color: #C58A59;
 }
+
+.hvr-fadeb {
+  font-family: 'Merriweather', serif;
+  font-size: 100px;
+  position: absolute;
+  padding-top: 6px;
+  padding-left: 243px;
+  color: white;
+  /*Animation code*/
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fadeb:hover, .hvr-fadeb:focus, .hvr-fadeb:active {
+  background-color: rgba(255, 255, 255, 0);
+  color: #C58A59;
+}
+
+.hvr-fadec {
+  font-family: 'Merriweather', serif;
+  font-size: 100px;
+  position: absolute;
+  padding-top: 6px;
+  padding-left: 195px;
+  color: white;
+  /*Animation code*/
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fadec:hover, .hvr-fadec:focus, .hvr-fadec:active {
+  background-color: rgba(255, 255, 255, 0);
+  color: #C58A59;
+}
+
+
 
 .iblock {
   margin-bottom: 8px;
@@ -282,9 +334,19 @@ table, tr, td {
   float: left;
 }*/
 
-.hvr-fade {
-  padding-top: 71px;
-  padding-left: 386px;
+.hvr-fadea {
+  padding-top: 42px;
+  padding-left: 375px;
+}
+
+.hvr-fadeb {
+  padding-top: 42px;
+  padding-left: 383px;
+}
+
+.hvr-fadec {
+  padding-top: 42px;
+  padding-left: 341px;
 }
 
 .padding {
@@ -340,9 +402,7 @@ table, tr, td {
   margin-top: 20px;
 }
 
-.iblock {
-  margin-bottom: 8px;
-}
+
 
 /*.circular1 {
   width: 300px;
