@@ -131,7 +131,8 @@ a:hover {
 }
 
 .hvr-fadea {
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
   font-size: 100px;
   position: absolute;
   padding-top: 6px;
@@ -156,7 +157,8 @@ a:hover {
 }
 
 .hvr-fadeb {
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
   font-size: 100px;
   position: absolute;
   padding-top: 6px;
@@ -181,7 +183,8 @@ a:hover {
 }
 
 .hvr-fadec {
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
   font-size: 100px;
   position: absolute;
   padding-top: 6px;
@@ -205,7 +208,10 @@ a:hover {
   color: #C58A59;
 }
 
-
+.prof {
+  float: left;
+  width: 25%;
+}
 
 .iblock {
   margin-bottom: 8px;
