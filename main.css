@@ -407,6 +407,19 @@ table, tr, td {
   font-weight: 300;
   margin-top: 20px;
 }
+}
+
+/*Big Desktop*/
+@media (min-width: 1200px) {
+
+  .sample {
+    width: 40%;
+    vertical-align: middle;
+  }
+
+  /*.h3 {
+    padding-top: 
+  }*/
 
 
 
