@@ -407,56 +407,6 @@ table, tr, td {
   font-weight: 300;
   margin-top: 20px;
 }
-}
-
-/*Big Desktop*/
-@media (min-width: 1290px) {
-
-  .liam {
-    padding-left: 15%;
-  }
-
-  .padding {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
-  .sample {
-    width: 40%;
-  }
-
-  .h3 {
-    margin-bottom: 6%;
-  }
-
-
-
-/*.circular1 {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  background: url(/images/trees.jpg) no-repeat;
-  }
-
-.circular2 {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  background: url(/images/bridge.jpg) no-repeat;
-  }
-
-.circular3 {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  background: url(/images/writing.jpg) no-repeat;
-  }*/
 
 .posters {
   float: left;
@@ -517,7 +467,7 @@ a:hover {
 }
 
 .one {
-	display: table-row;
+  display: table-row;
     height: 50%;
     background-image: url(https://41.media.tumblr.com/4cf6ca3d0668ce1dac130d9de6e9a118/tumblr_mj85mooWAr1qcjd6zo1_1280.jpg);
     padding-top: 25%;
@@ -525,7 +475,7 @@ a:hover {
 }
 
 .two {
-	display: table-row;
+  display: table-row;
     height: 50%;
     background-image: url(https://40.media.tumblr.com/tumblr_me8n3pmBYI1qcjd6zo1_1280.jpg);
     padding-bottom: 25%;
@@ -539,6 +489,58 @@ ul {
 li:hover {
   color: orange;
 }
+}
+
+/*Big Desktop*/
+@media (min-width: 1290px) {
+
+  .liam {
+    padding-left: 15%;
+  }
+
+  .padding {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .sample {
+    width: 40%;
+  }
+
+  .h3 {
+    margin-bottom: 6%;
+  }
+
+
+
+/*.circular1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(/images/trees.jpg) no-repeat;
+  }
+
+.circular2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(/images/bridge.jpg) no-repeat;
+  }
+
+.circular3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(/images/writing.jpg) no-repeat;
+  }*/
+
+
 
 /* Styling when menu item is selected*/
 /*body.liam li.liam, 
