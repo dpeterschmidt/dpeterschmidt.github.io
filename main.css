@@ -417,9 +417,9 @@ table, tr, td {
     vertical-align: middle;
   }
 
-  /*.h3 {
-    padding-top: 
-  }*/
+  .h3 {
+    padding-left: 20px;
+  }
 
 
 
