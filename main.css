@@ -412,6 +412,11 @@ table, tr, td {
 /*Big Desktop*/
 @media (min-width: 1280px) {
 
+  .padding {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
   .sample {
     width: 40%;
     vertical-align: middle;
