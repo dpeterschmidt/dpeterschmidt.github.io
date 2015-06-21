@@ -36,7 +36,14 @@
 }
 
 .logo {
-	/*display: none;*/
+	display: none;
+}
+
+.logo_m {
+	display: inline-block;
+	margin-left: 42%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 html, body {
