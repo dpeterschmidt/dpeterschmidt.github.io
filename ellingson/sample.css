@@ -258,7 +258,7 @@ form {
 td {
 	width: 50%;
 	padding: 5%;
-	display: inline-grid;
+	display: table-cell;
 }
 }
 
