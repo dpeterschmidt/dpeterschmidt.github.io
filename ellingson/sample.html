@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Chambers Bay - Home of the U.S. Open</title>
+	<!-- Bootrstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="sample.css">
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+	<div class="navbar-header">
+	<!-- Hamburger button, displays at mobile size -->
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	</button>
+	</div>
+	<div id = "navbar" class="navbar-collapse collapse">
+	    <ul class="nav navbar-nav">
+	        <li><a href="#">Course Maps</a></li>
+	        <li><a href="#">Tee Times</a></li>
+	        <li><a href="#">Schedule Your Game</a></li>
+	        <!-- Does not display at mobile size -->
+	        <li><img class = "logo" src="/users/danielpeterschmidt/desktop/Application/images/Logo1.png"></li>
+	        <li><a href="#">News & Media</a></li>
+	        <li><a href="#">Web Cameras</a></li>
+	        <li><a href="#">Weather Reports</a></li>
+	    </ul>   
+	</div>
+</nav>
+
+<!-- Social icons, only displays on desktop size, relocates to footer on mobile -->
+<div class = "icons">
+	<ul class="soc">
+		    <li><a class="soc-facebook" href="#"></a></li>
+		    <li><a class="soc-twitter" href="#"></a></li>
+		    <li><a class="soc-youtube" href="#"></a></li>
+		    <li><a class="soc-vimeo soc-icon-last" href="#"></a></li>
+		</ul>
+</div>
+
+<div class = "body">
+	<!-- Book a tee time, only shows on desktop, relocates to the third section on mobile -->
+	<div class = "floating_desktop">
+		<div class = "green"></div>
+		<img class = "small" src="/users/danielpeterschmidt/desktop/Application/images/Logo3.png">
+		<div class = "schedule">SCHEDULE</div>
+		<br>
+		<div class = "tee">YOUR TEE TIME</div>
+		<form>
+			<div class="input-group">
+			    <input type="text" class="form-control" id="text" placeholder="pick a date"> 
+			    <span class="input-group-addon"><img src="/users/danielpeterschmidt/desktop/Application/images/Calendar.png"></span>
+		  	</div>
+		  	<div class="input-group">
+			    <input type="text" class="form-control" id="text" placeholder="pick a time"> 
+			    <span class="input-group-addon"><img src="/users/danielpeterschmidt/desktop/Application/images/Clock.png"></span>
+		  	</div>
+		  	<div class="input-group">
+			    <input type="text" class="form-control" id="text" placeholder="group size">
+			    <span class="input-group-addon"><img src="/users/danielpeterschmidt/desktop/Application/images/Group.png"></span>
+		  	</div>
+		</form>
+		<button type="button" class="btn btn-primary">Schedule</button>
+	</div>
+
+	<!-- Golf course img -->
+	<img class = "golf_img" src="/users/danielpeterschmidt/desktop/Application/images/chambers.png">
+
+	<!-- Chambers Bay text next to golf course img -->
+	<div class = "sec_1">
+		<img class = "blb" src="/users/danielpeterschmidt/desktop/Application/images/Logo2.png">
+		<div class = "sec_1_sub">
+			<h1>Chambers Bay</h1>
+			<h2>HOME OF THE 2015 US OPEN</h2>
+		</div>
+	</div>
+
+	<!-- Book a tee time, only displays on mobile, third section down -->
+	<div class = "floating_mobile">
+		<div class = "green"></div>
+		<img class = "small" src="/users/danielpeterschmidt/desktop/Application/images/Logo3.png">
+		<div class = "schedule">SCHEDULE</div>
+		<br>
+		<div class = "tee">YOUR TEE TIME</div>
+		<form>
+			<div class="input-group">
+			    <input type="text" class="form-control" id="text" placeholder="pick a date"> 
+			    <span class="input-group-addon"><img class = "calendar" src="/users/danielpeterschmidt/desktop/Application/images/Calendar.png"></span>
+		  	</div>
+		  	<div class="input-group">
+			    <input type="text" class="form-control" id="text" placeholder="pick a time"> 
+			    <span class="input-group-addon"><img class = "clock" src="/users/danielpeterschmidt/desktop/Application/images/Clock.png"></span>
+		  	</div>
+		  	<div class="input-group">
+			    <input type="text" class="form-control" id="text" placeholder="group size">
+			    <span class="input-group-addon"><img class = "group" src="/users/danielpeterschmidt/desktop/Application/images/Group.png"></span>
+		  	</div>
+		</form>
+		<button type="button" class="btn btn-primary">Schedule</button>
+	</div>
+
+	<!-- Golf club img + quote -->
+	<div class = "sec_2">
+		<img class = "golf_jpg" src="/users/danielpeterschmidt/desktop/Application/images/Golf.jpg">
+		<div class = "sec_2_sub">
+			"As far as the greens are concerned, it's not a championship golf course."
+			<br>
+			<div style = "text-align:right;"> - Ryan Palmer </div>
+		</div>
+	</div>
+
+	<!-- Three circles -->
+	<table>
+		<tr>
+			<td><div class = "circle"></div></td>
+			<td><div class = "circle"></div></td>
+			<td><div class = "circle"></div></td>
+		</tr>
+	</table>
+
+	<!-- Social icons, only displays on mobile at the footer -->
+	<div class = "footer_mobile">
+		<ul class="soc">
+		    <li><a class="soc-facebook" href="#"></a></li>
+		    <li><a class="soc-twitter" href="#"></a></li>
+		    <li><a class="soc-youtube" href="#"></a></li>
+		    <li><a class="soc-vimeo soc-icon-last" href="#"></a></li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
