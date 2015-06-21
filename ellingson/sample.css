@@ -242,6 +242,10 @@ form {
 	display: inline-block;
 }
 
+.logo_m {
+	display: none;
+}
+
 .sec_1 {
 	background-color: white;
 	text-align: left;
