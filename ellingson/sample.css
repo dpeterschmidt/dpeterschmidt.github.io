@@ -385,11 +385,11 @@ display: inline-block;
 /*Social Icons CSS*/
 @font-face {
     font-family: 'si';
-    src: url('/users/danielpeterschmidt/desktop/Application/socicon.eot');
-    src: url('/users/danielpeterschmidt/desktop/Application/socicon.eot?#iefix') format('embedded-opentype'),
-         url('/users/danielpeterschmidt/desktop/Application/socicon.woff') format('woff'),
-         url('/users/danielpeterschmidt/desktop/Application/socicon.ttf') format('truetype'),
-         url('/users/danielpeterschmidt/desktop/Application/socicon.svg#icomoonregular') format('svg');
+    src: url('/ellingson/socicon.eot');
+    src: url('/ellingson/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/ellingson/socicon.woff') format('woff'),
+         url('/ellingson/socicon.ttf') format('truetype'),
+         url('/ellingson/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
  
