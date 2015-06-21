@@ -31,6 +31,10 @@
     padding: 1% 0% 1% 0%;
 }
 
+.navbar-toggle {
+	background-color: aliceblue;
+}
+
 .logo {
 	display: none;
 }
@@ -133,14 +137,14 @@ form {
 }
 
 .btn {
-	padding: 35px 12px;
+	padding: 20px 12px;
 	font-size: 2.5em; /*40/16*/
 	border-radius: 4px;
 	margin-bottom: 20px;
 }
 
 .input-group {
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 }
 
 .input-group-addon {
