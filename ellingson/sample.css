@@ -240,6 +240,7 @@ form {
 @media (min-width: 768px) { 
 .logo {
 	display: inline-block;
+	padding: 0px;
 }
 
 .logo_m {
