@@ -267,6 +267,10 @@ form {
 
 }
 
+.pad {
+	padding-top: 2%;
+}
+
 td {
 	width: 50%;
 	padding: 5%;
