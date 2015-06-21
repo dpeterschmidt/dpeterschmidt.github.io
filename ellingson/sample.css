@@ -67,8 +67,10 @@ table {
 }
 
 td {
-	width: 50%;
+	width: 100%;
 	padding: 5%;
+	display: inline-block;
+	padding-left: 22%;
 }
 
 .body {
@@ -230,14 +232,14 @@ form {
 /*Tablet*/
 @media (min-width: 768px) { 
 .logo {
-display: inline-block;
+	display: inline-block;
 }
 
 .sec_1 {
-background-color: white;
-text-align: left;
-padding-top: 3%;
-padding-bottom: 3%;
+	background-color: white;
+	text-align: left;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .blb {
@@ -251,6 +253,11 @@ padding-bottom: 3%;
 	font-weight: bold;
 	vertical-align: middle;
 
+}
+
+td {
+	width: 50%;
+	padding: 5%;
 }
 }
 
