@@ -1,11 +1,10 @@
 /*This is a responsive stylesheet for mobile, tablet, and desktop.*/
-/*Phone starts at line 4, tablet at line 277, and desktop at line 234.*/
+/*Phone starts at line 4, tablet at line 239, and desktop at line 281.*/
 
 /*Phone*/
 
 .navbar {
   border-radius: 0px;
-  /*margin-bottom: 0px;*/
   border: 0px;
   margin-bottom: -5px;
 }
