@@ -403,11 +403,11 @@ p {
 
 @font-face {
     font-family: 'si';
-    src: url('/users/danielpeterschmidt/desktop/New Site/socicon.eot');
-    src: url('/users/danielpeterschmidt/desktop/New Site/socicon.eot?#iefix') format('embedded-opentype'),
-         url('/users/danielpeterschmidt/desktop/New Site/socicon.woff') format('woff'),
-         url('/users/danielpeterschmidt/desktop/New Site/socicon.ttf') format('truetype'),
-         url('/users/danielpeterschmidt/desktop/New Site/socicon.svg#icomoonregular') format('svg');
+    src: url('/new/socicon.eot');
+    src: url('/new/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/new/socicon.woff') format('woff'),
+         url('/new/socicon.ttf') format('truetype'),
+         url('/new/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
  
