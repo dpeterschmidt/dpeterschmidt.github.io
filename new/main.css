@@ -21,6 +21,10 @@
 	padding-top: 20px;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: white;
+}
+
 html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
