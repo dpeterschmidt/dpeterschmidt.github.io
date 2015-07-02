@@ -393,6 +393,12 @@ p {
 	border-color: grey; 
 }
 
+.imgmedium {
+	display: inline-block;
+	width: 54%;
+	margin: 1% 60% 1% 10%;
+}
+
 .imglarge {
 	display: inline-block;
 	width: 65%;
