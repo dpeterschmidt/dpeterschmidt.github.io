@@ -305,7 +305,8 @@ h2 {
 }
 
 td, th {
-	width: 50%;
+	width: 46%;
+	margin: 0% 2% 0% 2%;
 }
 
 /*.blarge {
