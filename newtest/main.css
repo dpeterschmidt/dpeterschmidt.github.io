@@ -12,9 +12,9 @@
 }
 
 .navbar-nav {
-	/*float: right;*/
 	margin-right: 4%;
 	font-size: 1.1em;
+	padding-top: 3px;
 }
 
 .navbar-nav>li>a {
