@@ -15,6 +15,7 @@
 	margin-right: 4%;
 	font-size: 1.1em;
 	padding-top: 3px;
+	float: right;
 }
 
 .navbar-nav>li>a {
@@ -69,6 +70,10 @@ h3 {
 	float: left;
 	margin-left: 4%;
 	color: black;
+}
+
+table {
+	margin: 0% 4% 0% 4%;
 }
 
 td, th {
