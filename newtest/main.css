@@ -6,7 +6,7 @@
 
 .description {
 	text-align: center;
-	font-size: 43px;
+	font-size: 28px;
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -16,6 +16,7 @@
 	left: 0;
 	right: 0;
 	background: rgba(76, 76, 76, 0.9);
+	border-radius: 5px;
 	color: #fff;
 	visibility: hidden; 
 	opacity: 0; 
