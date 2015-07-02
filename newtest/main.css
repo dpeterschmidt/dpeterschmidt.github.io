@@ -71,6 +71,10 @@ h3 {
 	color: black;
 }
 
+td, th {
+	width: 100%;
+}
+
 .blarge {
 	font-size: 4.625em; /*74/16*/
 	color: white;
@@ -265,6 +269,10 @@ h1 {
 h2 {
 	text-align: left;
 	margin-left: 10%;
+}
+
+td, th {
+	width: 50%;
 }
 
 /*.blarge {
