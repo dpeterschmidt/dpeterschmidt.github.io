@@ -73,6 +73,7 @@ h3 {
 
 td, th {
 	width: 100%;
+	display: inline-block;
 }
 
 .blarge {
