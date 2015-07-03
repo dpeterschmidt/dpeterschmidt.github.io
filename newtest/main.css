@@ -6,11 +6,11 @@
 
 .description {
 	text-align: center;
-	font-size: 28px;
+	font-size: 22px;
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	padding-top: 25%;
+	padding-top: 30%;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -307,7 +307,7 @@ h2 {
 
 td, th {
 	width: 46%;
-	margin: 0% 2% 0% 2%;
+	margin: 2% 2% 2% 2%;
 }
 
 /*.blarge {
