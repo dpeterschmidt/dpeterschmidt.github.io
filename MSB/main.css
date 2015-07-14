@@ -185,6 +185,9 @@ p {
 
 html, body {
 	margin: 2%;
+	background-image: url("/users/danielpeterschmidt/desktop/Lisa/IMG_4791.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .dotted-border {
@@ -234,6 +237,10 @@ td, th {
 	margin: 2% 2% 2% 2%;
 	font-size: 28px;
 	font-weight: 300;
+}
+
+img {
+	width: 33%;
 }
 
 /*.blarge {
