@@ -191,7 +191,7 @@ ol, ul {
 	text-align: right;
 	position: absolute;
 	top: 5%;
-	left: 85%;
+	padding-left: 88%;
 	font-weight: 100;
 	line-height: 21px;
 }
@@ -211,8 +211,8 @@ a:hover {
 	font-size: 70px;
 	position: absolute;
 	color: white;
-	top: 56%;
-	left: 63%;
+	margin-top: -26%;
+	padding-left: 63%;
 }
 
 h1 {
