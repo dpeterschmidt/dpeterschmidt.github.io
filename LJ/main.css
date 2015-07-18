@@ -1,31 +1,7 @@
 /*Phone*/
 
-.wrap {
-	position: relative;
-}
-
-.description {
-	text-align: center;
-	font-size: 22px;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	padding-top: 30%;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(76, 76, 76, 0.9);
-	border-radius: 5px;
-	color: #fff;
-	visibility: hidden; 
-	opacity: 0; 
-	-webkit-transition: opacity 0.2s;
-}
-
-.wrap:hover .description {
-  visibility: visible;
-  opacity: 1;
+.active {
+	font-weight: 400;
 }
 
 .navbar {
@@ -65,7 +41,7 @@
 }
 
 html, body, form {
-  	font-family: 'Lato', sans-serif;
+  	font-family: 'Josefin Sans', sans-serif;
     color: black;
     text-align: center;
 }
@@ -206,6 +182,37 @@ html, body {
 	float: right;
 	margin-left: 2%;
 	font-size: 1.1em;
+}
+
+ol, ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+	list-style-type: none;
+	text-align: right;
+	position: absolute;
+	top: 5%;
+	left: 85%;
+	font-weight: 100;
+	line-height: 21px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.title {
+	text-align: right;
+	font-weight: 300;
+	font-size: 70px;
+	position: absolute;
+	color: white;
+	top: 56%;
+	left: 63%;
 }
 
 h1 {
