@@ -343,7 +343,7 @@ p {
 	display: inline-block;
 	width: 46%;
 	margin: 1% 60% 1% 10%;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 
 .imglarge {
