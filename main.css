@@ -1,5 +1,9 @@
 /*Phone*/
 
+.desktop {
+	display: none;
+}
+
 .wrap {
 	position: relative;
 }
@@ -23,6 +27,18 @@
 	-webkit-transition: opacity 0.2s;
 }
 
+.mob_desc {
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	margin: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
 .wrap:hover .description {
   visibility: visible;
   opacity: 1;
@@ -40,7 +56,6 @@
 }
 
 .navbar-nav {
-	margin-right: 4%;
 	font-size: 1.1em;
 	padding-top: 3px;
 }
@@ -181,6 +196,14 @@ html, body {
     /*margin-left: 30px;
     margin-right: 30px;*/
     /*text-align: center;*/
+}
+
+.desktop {
+	display: inherit;
+}
+
+.mobile {
+	display: none;
 }
 
 .navbar-nav {
