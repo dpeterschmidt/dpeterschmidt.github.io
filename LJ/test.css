@@ -45,6 +45,12 @@ html, body, form {
     color: black;
     text-align: center;
     background-color: rgb(246, 246, 246);
+    background-image: url("/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/images/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: 8.8%;
+);
 }
 
 hr {
@@ -80,11 +86,12 @@ h2 {
 }
 
 h3 {
-	/*float: left;*/
-	margin-left: 20%;
-	margin-right: 20%;
-	font-weight: 300;
+	margin-left: 3%;
+	margin-right: 45%;
+	font-weight: 200;
 	color: black;
+	text-align: left;
+	font-size: 20px;
 }
 
 table {
@@ -227,10 +234,12 @@ h1 {
 }
 
 h2 {
-	text-align: center;
+	text-align: left;
 	font-size: 51px;
-	font-weight: 400;
+	font-weight: 00;
 	color: black;
+	margin-left: 3%;
+	margin-top: 2%;
 }
 
 td, th {
@@ -253,7 +262,7 @@ p {
 
 .form-group {
 	text-align: left;
-	margin-left: 10%;
+	margin-left: 3%;
 	font-weight: 300;
 }
 
@@ -263,6 +272,7 @@ p {
 
 .btn {
 	margin-bottom: 14px;
+	margin-left: 3%;
 }
 
 .screenshot {
