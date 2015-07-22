@@ -44,6 +44,7 @@ html, body, form {
   	font-family: 'Josefin Sans', sans-serif;
     color: black;
     text-align: center;
+    background-color: rgb(246, 246, 246);
 }
 
 hr {
@@ -197,7 +198,7 @@ ol, ul {
 }
 
 a {
-	color: white;
+	color: black;
 }
 
 a:hover {
@@ -206,13 +207,13 @@ a:hover {
 }
 
 .title {
-	text-align: right;
+	text-align: left;
 	font-weight: 300;
 	font-size: 70px;
 	position: absolute;
-	color: white;
-	margin-top: -26%;
-	padding-left: 63%;
+	color: black;
+	margin-top: -51%;
+	padding-left: 3%;
 }
 
 h1 {
