@@ -88,10 +88,12 @@ h2 {
 h3 {
 	margin-left: 3%;
 	margin-right: 45%;
-	font-weight: 200;
+	font-weight: 300;
+	font-style: italic;
 	color: black;
 	text-align: left;
 	font-size: 20px;
+	margin-bottom: 28px;
 }
 
 table {
@@ -103,6 +105,10 @@ td, th {
 	display: inline-block;
 	margin-top: 1%;
   	margin-bottom: 1%;
+}
+
+label {
+	font-weight: 300;
 }
 
 .footer {
