@@ -226,7 +226,7 @@ li {
 }
 
 .form-inline .form-control {
-    /*padding: 0% 42%;*/
+    width: 101%;
 }
 
 .btn-default {
@@ -236,6 +236,7 @@ li {
     font-size: 23px;
     border-color: none;
     border-color: transparent;
+    margin: 2%;
 }
 
 /*Tablet*/
@@ -262,6 +263,10 @@ li {
 .blurb4 {
 	font-weight:300; 
 	display:inline-block;
+}
+
+.row {
+    margin: 1% 14%;
 }
 
 }
