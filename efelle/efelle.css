@@ -239,6 +239,26 @@ li {
 	float: right;
 }
 
+.blurb1 {
+	font-weight:300; 
+	display:inline-block;
+}
+
+.blurb2 {
+	font-weight:700; 
+	display:inline-block;
+}
+
+.blurb3 {
+	font-weight:100; 
+	display:inline-block;
+}
+
+.blurb4 {
+	font-weight:300; 
+	display:inline-block;
+}
+
 }
 
 /*Desktop*/
@@ -301,25 +321,6 @@ p {
     left: 66%;
 }
 
-.blurb1 {
-	font-weight:300; 
-	display:inline-block;
-}
-
-.blurb2 {
-	font-weight:700; 
-	display:inline-block;
-}
-
-.blurb3 {
-	font-weight:100; 
-	display:inline-block;
-}
-
-.blurb4 {
-	font-weight:300; 
-	display:inline-block;
-}
 
 
 
