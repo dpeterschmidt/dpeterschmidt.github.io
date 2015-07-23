@@ -13,7 +13,7 @@
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="efelle.css">
 	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -48,13 +48,13 @@
 </div>
 
 <div class = "subtitle">
-	Recent News | Jan. 1, 2015
+	<div class = "blurb1">Recent News | Jan. 1, 2015</div>
 	&nbsp; &nbsp; &nbsp; &nbsp; 
-	<strong>Blog title</strong>
+	<div class = "blurb2">Blog title</div>
 	&nbsp; &nbsp; &nbsp; &nbsp; 
-	"Blurb text, 20 character...."
+	<div class = "blurb3">"Blurb text, 20 character...."</div>
 	&nbsp;  &nbsp; &nbsp; &nbsp; 
-	<a href=""><strong>View Post > </strong></a>
+	<div class = "blurb4"><a href="">View Post > </a></div>
 </div>
 
 <div class = "heading">
@@ -64,6 +64,21 @@
 
 <div class = "contact">
 	<h2>Contact Us</h2>
+
+	<!-- <form class = "form-inline">
+		<div class="form-group">
+		<input type="text" class="form-control" id="exampleInputName2" placeholder = "Name"></textarea>
+		</div>
+	  <div class="form-group">
+	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail*">
+	  </div>
+	  <br>
+	  <div class="form-group">
+	    <textarea class="form-control" rows = "3" placeholder = "How can we help you?"></textarea>
+	  </div>
+	  <br>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form> -->
 
 	<form class = "form-inline">
 		<div class="form-group">
@@ -79,11 +94,13 @@
 	  <br>
 	  <button type="submit" class="btn btn-default">Submit</button>
 	</form>
+
+
 </div>
 
 
 <div class = "footer">
-	<ul>
+	<ul class = "footfoot">
 		<li>About Us</li>
 		|
 		<li>Blog</li>
@@ -93,7 +110,7 @@
 		<li>Sitemap</li>
 	</ul>
 
-	<div style = "text-align:right">Copyright 2015</div>
+	<div class = "copyright">Copyright 2015</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

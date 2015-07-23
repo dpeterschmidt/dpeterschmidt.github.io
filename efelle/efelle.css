@@ -79,7 +79,7 @@ p {
 }
 
 ol, ul {
-	margin-top: 0;
+	/*margin-top: 0;*/
 	padding-left: 0;
 }
 
@@ -89,6 +89,25 @@ li {
     padding: 0% 1% 0% 1%;
 }
 
+.nav>li {
+	padding: 0;
+}
+
+.footfoot {
+	margin-left: 10%;
+	display: initial;
+}
+
+.copyright {
+	text-align: right;
+	float: right;
+	display: inline-block;
+	color: white;
+	margin-right: 10%;
+}
+
+
+
 .navbar {
 	border: none;
     background-color: #4B6E76;
@@ -96,6 +115,10 @@ li {
 	border-radius: 0px;
 	padding-top: 1.5%;
     padding-bottom: 1.5%;
+}
+
+.navbar-toggle {
+	background-color: white;
 }
 
 .navbar-collapse {
@@ -126,6 +149,10 @@ li {
 	font-size: 20px;
 }
 
+.nav>li {
+
+}
+
 .header {
 	font-size: 3.875em; /*62/16*/
 	color: black;
@@ -147,6 +174,7 @@ li {
     color: #949EA0;
     background-color: #4B6E76;
     padding-bottom: 10px;
+    padding-top: 10px;
     text-decoration: none;
     text-align: left;
 }
@@ -168,12 +196,41 @@ li {
     margin: 9%;
 }
 
+.blurb1 {
+	font-weight:300; 
+}
+
+.blurb2 {
+	font-weight:700; 
+}
+
+.blurb3 {
+	font-weight:100; 
+}
+
+.blurb4 {
+	font-weight:300; 
+}
+
 .contact {
 	background-color: #000D2B;
 }
 
 .form {
     margin: 0% 12% 0 12%;
+}
+
+.form-inline .form-control {
+    padding: 0% 42%;
+}
+
+.btn-default {
+    color: white;
+    background-color: #7A8D91;
+    font-weight: 100;
+    font-size: 23px;
+    border-color: none;
+    border-color: transparent;
 }
 
 /*Tablet*/
@@ -242,6 +299,26 @@ p {
     color: white;
     top: 47%;
     left: 66%;
+}
+
+.blurb1 {
+	font-weight:300; 
+	display:inline-block;
+}
+
+.blurb2 {
+	font-weight:700; 
+	display:inline-block;
+}
+
+.blurb3 {
+	font-weight:100; 
+	display:inline-block;
+}
+
+.blurb4 {
+	font-weight:300; 
+	display:inline-block;
 }
 
 
