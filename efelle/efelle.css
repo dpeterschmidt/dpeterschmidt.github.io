@@ -90,16 +90,12 @@ li {
 }
 
 .footfoot {
-	margin-left: 10%;
-	display: initial;
+	text-align: center;
 }
 
 .copyright {
-	text-align: right;
-	float: right;
-	display: inline-block;
+	text-align: center;
 	color: white;
-	margin-right: 10%;
 }
 
 
@@ -268,6 +264,19 @@ li {
 
 .row {
     margin: 2% 14%;
+}
+
+.footfoot {
+	margin-left: 10%;
+	display: initial;
+}
+
+.copyright {
+	text-align: right;
+	float: right;
+	display: inline-block;
+	color: white;
+	margin-right: 10%;
 }
 
 }
