@@ -75,11 +75,9 @@ p {
 }
 
 ol, ul {
-	/*margin-top: 0;*/
 	padding-left: 0;
 }
 
-/*Padding causing issues up top*/
 li {
 	display: inline;
     padding: 0% 1% 0% 1%;
@@ -98,7 +96,9 @@ li {
 	color: white;
 }
 
-
+.form-inline {
+	margin: 0% 9%;
+}
 
 .navbar {
 	border: none;
@@ -186,28 +186,32 @@ li {
 	font-weight:300;
 	padding: 0% 3%;
 	list-style-type: none;
-    display: block; 
+    display: block;
+    padding: 1%; 
 }
 
 .blurb2 {
 	font-weight:700;
 	padding: 0% 3%;
 	list-style-type: none;
-    display: block; 
+    display: block;
+    padding: 1%; 
 }
 
 .blurb3 {
 	font-weight:100;
 	padding: 0% 3%;
 	list-style-type: none;
-    display: block; 
+    display: block;
+    padding: 1%; 
 }
 
 .blurb4 {
 	font-weight:300;
 	padding: 0% 3%;
 	list-style-type: none;
-    display: block; 
+    display: block;
+    padding: 1%; 
 }
 
 .contact {
