@@ -1,3 +1,7 @@
+/*This is a responsive stylesheet for mobile, tablet, and desktop.*/
+/*Phone starts at line 4, tablet at line 244, and desktop at line 289.*/
+/*Fonts are converted to em. Ex: 36px (target) / 16px (body)*/
+
 /*Phone*/
 
 html, body {
@@ -48,6 +52,7 @@ h5 {
 	text-align: center;
 	font-weight: 300;
 	font-size: 1.25em; /*20/16*/
+    margin-bottom: 17px;
 }
 
 h6 {
@@ -81,23 +86,6 @@ ol, ul {
 li {
 	display: inline;
     padding: 0% 1% 0% 1%;
-}
-
-.nav>li {
-	padding: 0;
-}
-
-.footfoot {
-	text-align: center;
-}
-
-.copyright {
-	text-align: center;
-	color: white;
-}
-
-.form-inline {
-	margin: 0% 9%;
 }
 
 .navbar {
@@ -142,31 +130,15 @@ li {
 }
 
 .nav>li {
-
+	padding: 0;
 }
 
-.header {
-	font-size: 3.875em; /*62/16*/
-	color: black;
-	font-weight: 400;
-	margin-left: 1%;
-    margin-right: 1%;
+.astro {
+	width: 100%;
 }
 
-.footer {
-    font-size: 1.1875em;
-    font-weight: 300;
-    color: #949EA0;
-    background-color: #4B6E76;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    text-decoration: none;
-    text-align: left;
-}
-
-.footera {
-    color: #949EA0;
-
+.form-inline {
+	margin: 0% 9%;
 }
 
 .subtitle {
@@ -178,8 +150,8 @@ li {
 	font-weight: 300;
 }
 
-.astro {
-	width: 100%;
+.heading {
+    margin: 9% 6%;
 }
 
 .blurb1 {
@@ -214,6 +186,10 @@ li {
     padding: 1%; 
 }
 
+.linkex {
+	color: black;
+}
+
 .contact {
 	background-color: #000D2B;
 }
@@ -226,6 +202,11 @@ li {
     width: 101%;
 }
 
+.form-group {
+    margin-bottom: 15px;
+    padding: 0% 2%;
+}
+
 .btn-default {
     color: white;
     background-color: #7A8D91;
@@ -236,13 +217,29 @@ li {
     margin-bottom: 2%;
 }
 
-.heading {
-    margin: 9% 6%;
+
+.footer {
+    font-size: 1.1875em;
+    font-weight: 300;
+    color: #949EA0;
+    background-color: #4B6E76;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: left;
 }
 
-.form-group {
-    margin-bottom: 15px;
-    padding: 0% 2%;
+.footera {
+    color: #949EA0;
+}
+
+.footfoot {
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
 }
 
 /*Tablet*/
@@ -293,38 +290,7 @@ li {
 /*Desktop*/
 @media (min-width: 992px) {
 
-html, body {
-  	/*font-family: 'Lato', sans-serif;
-    color: black;*/
-    /*margin-left: 30px;
-    margin-right: 30px;*/
-    /*text-align: center;*/
-}
-
-.navbar-nav>li>a {
-    padding-top: 25px;
-}
-
-.desktop {
-	display: inherit;
-}
-
-.mobile {
-	display: none;
-}
-
-.navbar-nav {
-	float: right;
-	margin-right: 4%;
-	font-size: 1.1em;
-}
-
-.reg-name {
-	width: 50%;
-}
-
-
-h1 {
+	h1 {
 	text-align: left;
 	margin-left: 10%;
 	margin-top: 3%;
@@ -347,6 +313,16 @@ p {
     display: inline-block;
 }
 
+.navbar-nav>li>a {
+    padding-top: 25px;
+}
+
+.navbar-nav {
+	float: right;
+	margin-right: 4%;
+	font-size: 1.1em;
+}
+
 .imgtext {
 	position: absolute;
     color: white;
@@ -357,7 +333,3 @@ p {
 .heading {
     margin: 9% 17%;
 }
-
-
-
-
