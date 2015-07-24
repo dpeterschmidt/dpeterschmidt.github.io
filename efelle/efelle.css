@@ -131,6 +131,7 @@ li {
 
 .nav>li {
 	padding: 0;
+    display: inline-grid;
 }
 
 .astro {
