@@ -4,6 +4,7 @@ html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
     text-align: center;
+    font-size: 16px;
 }
 
 hr {
@@ -19,11 +20,6 @@ a:hover {
 	text-decoration: none;
 }
 
-h1 {
-	font-size: 2.625em; /*42/16*/
-	margin: 0;
-}
-
 h2 {
     font-size: 4.0625em;
     font-weight: 300;
@@ -31,7 +27,7 @@ h2 {
     margin: 0;
     font-weight: 400;
     text-align: center;
-    padding: 3%;
+    padding: 2% 0% 1% 0%;
 }
 
 h3 {
@@ -40,22 +36,22 @@ h3 {
 	color: white;
 	font-weight: 300;
 	margin-top: 15px;
-	font-size: 36px;
+	font-size: 2.25em; /*36/16*/
 }
-
+ 
 h4 {
-	font-size: 51px;
+	font-size: 3.1875em; /*51/16*/
     font-weight: 300;
 }
 
 h5 {
 	text-align: center;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 1.25em; /*20/16*/
 }
 
 h6 {
-	font-size: 37px;
+	font-size: 2.3125; /*37/16*/
 	font-weight: 300;
 	text-align: center;
 }
@@ -146,7 +142,7 @@ li {
 .navbar-default .navbar-nav>li>a {
 	color: white;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 1.25em; /*20/16*/
 }
 
 .nav>li {
@@ -159,13 +155,6 @@ li {
 	font-weight: 400;
 	margin-left: 1%;
     margin-right: 1%;
-}
-
-.menu {
-	font-size: 1.875em; /*30/16*/
-	font-weight: 300;
-	margin-left: 100px;
-    margin-right: 100px;
 }
 
 .footer {
@@ -189,7 +178,7 @@ li {
 	background-color: #7A8D91;
 	padding: 3%;
 	color: white;
-	font-size: 20px;
+	font-size: 1.25em; /*20/16*/
 	font-weight: 300;
 }
 
@@ -197,24 +186,32 @@ li {
 	width: 100%;
 }
 
-.heading {
-    margin: 9% 22%;
-}
-
 .blurb1 {
-	font-weight:300; 
+	font-weight:300;
+	padding: 0% 3%;
+	list-style-type: none;
+    display: block; 
 }
 
 .blurb2 {
-	font-weight:700; 
+	font-weight:700;
+	padding: 0% 3%;
+	list-style-type: none;
+    display: block; 
 }
 
 .blurb3 {
-	font-weight:100; 
+	font-weight:100;
+	padding: 0% 3%;
+	list-style-type: none;
+    display: block; 
 }
 
 .blurb4 {
-	font-weight:300; 
+	font-weight:300;
+	padding: 0% 3%;
+	list-style-type: none;
+    display: block; 
 }
 
 .contact {
@@ -233,10 +230,14 @@ li {
     color: white;
     background-color: #7A8D91;
     font-weight: 100;
-    font-size: 23px;
+    font-size: 1.4375em; /*23/16*/
     border-color: none;
     border-color: transparent;
-    margin: 2%;
+    margin-bottom: 2%;
+}
+
+.heading {
+    margin: 9% 6%;
 }
 
 /*Tablet*/
@@ -266,7 +267,7 @@ li {
 }
 
 .row {
-    margin: 1% 14%;
+    margin: 2% 14%;
 }
 
 }
@@ -333,6 +334,10 @@ p {
     color: white;
     top: 47%;
     left: 66%;
+}
+
+.heading {
+    margin: 9% 17%;
 }
 
 
