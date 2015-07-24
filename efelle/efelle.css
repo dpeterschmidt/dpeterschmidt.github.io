@@ -291,7 +291,7 @@ li {
 /*Desktop*/
 @media (min-width: 992px) {
 
-	h1 {
+h1 {
 	text-align: left;
 	margin-left: 10%;
 	margin-top: 3%;
@@ -312,6 +312,10 @@ td, th {
 
 p {
     display: inline-block;
+}
+
+.linkex {
+	color: white;
 }
 
 .navbar-nav>li>a {
