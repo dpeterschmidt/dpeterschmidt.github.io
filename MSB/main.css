@@ -84,9 +84,18 @@ img {
 	height: 4.5em;
 }
 
+h1 {
+	font-size: 50px;
+	color: black;
+	margin: 2% 28% 0% 28%;  
+	text-align: center;
+	border: 5px solid black;
+    padding: 0.5% 0% 0.5% 0%;
+}
+
 p {
 	text-align: left;
-	margin: 2% 24% 2% 24%;
+	margin: 2% 8% 2% 8%;
 	font-weight: 300;
 	font-size: 1.1875em;
 }
@@ -172,18 +181,20 @@ p {
 
 /*Desktop*/
 @media (min-width: 992px) {
+h1 {
+	margin: 2% 41% 0% 41%;  
+}
+
+p {
+	margin: 2% 12% 2% 12%;
+}
 
 .dotted-border {
     border-image: url('/users/danielpeterschmidt/dpeterschmidt.github.io/MSB/images/border.png') 5 repeat;
 }
 
 h1 {
-	font-size: 50px;
-	color: black;
 	margin: 2% 42% 0% 42%;  
-	text-align: center;
-	border: 5px solid black;
-    padding: 0.5% 0% 0.5% 0%;
 }
 
 h2 {
@@ -198,6 +209,10 @@ td, th {
 	margin: 5.3% 2% 5.3% 2%;
 	font-size: 28px;
 	font-weight: 300;
+}
+
+p {
+	margin: 2% 24% 2% 24%;
 }
 
 .backgrnd {
