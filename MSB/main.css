@@ -37,8 +37,18 @@ table {
 	width: 100%;
 }
 
+/*Need a wrap deal*/
+tr {	
+		-webkit-transition: opacity 0.2s;
+
+}
+
 tr:hover {
+	visibility: visible;
+	opacity: 1;
 	background-color: #FBE0BD;
+	-webkit-transition: opacity 0.2s;
+
 }
 
 td, th {
@@ -67,7 +77,7 @@ img {
     padding: 2%;
     background-color: white;
     font-size: 15px;
-    height: 4.5em;
+    /*height: 4.5em;*/
 }
 
 .push {
