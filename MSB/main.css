@@ -37,8 +37,8 @@ table {
 	width: 100%;
 }
 
-tr {
-	border: 1px solid grey;
+tr:hover {
+	background-color: #FBE0BD;
 }
 
 td, th {
@@ -183,7 +183,7 @@ h2 {
 
 td, th {
 	width: 29%;
-	margin: 3.7% 2% 3.7% 2%;
+	margin: 5.3% 2% 5.3% 2%;
 	font-size: 28px;
 	font-weight: 300;
 }
