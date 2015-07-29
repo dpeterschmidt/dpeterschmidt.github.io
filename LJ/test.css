@@ -50,7 +50,7 @@ html, body, form {
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position-y: 8.8%;
-);
+)
 }
 
 hr {
@@ -177,6 +177,12 @@ p {
 	margin-bottom: 14px;
 }
 
+.tour {
+	background-color: white;
+	margin-top: 55%;
+	position: relative;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {
@@ -203,7 +209,7 @@ ol, ul {
 	margin-bottom: 10px;
 	list-style-type: none;
 	text-align: right;
-	position: absolute;
+	position: fixed;
 	top: 5%;
 	padding-left: 88%;
 	font-weight: 100;
@@ -223,7 +229,7 @@ a:hover {
 	text-align: left;
 	font-weight: 300;
 	font-size: 70px;
-	position: absolute;
+	position: fixed;
 	color: black;
 	margin-top: -51%;
 	padding-left: 3%;
