@@ -221,9 +221,9 @@ ol, ul {
 	/*margin-bottom: 10px;*/
 	list-style-type: none;
 	text-align: right;
-	/*position: fixed;*/
-	display: inline-block;
-	/*top: 5%;*/
+	position: fixed; /*comment*/
+	/*display: inline-block;*/
+	top: 5%; /*comment*/
 	padding-left: 88%;
 	font-weight: 100;
 	line-height: 21px;
