@@ -51,7 +51,7 @@
     color: black;
 }
 
-html, body, form {
+html, body {
   	font-family: 'Josefin Sans', sans-serif;
     color: black;
     text-align: center;
@@ -197,23 +197,28 @@ p {
 	float: right;
 }
 
+.nav {
+    margin-left: 88%;
 }
 
-/*Desktop*/
-@media (min-width: 992px) {
-
-html, body {
-    background-image: url("/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/images/background.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position-y: 8.8%;
+h2 {
+	text-align: left;
+	font-size: 51px;
+	font-weight: 00;
+	color: black;
+	margin-left: 3%;
+	/*margin-top: 3%;*/ /*Test for com*/
 }
 
-.navbar-nav {
-	float: right;
-	margin-left: 2%;
-	font-size: 1.1em;
+h3 {
+	margin-left: 3%;
+	margin-right: 50%;
+	font-weight: 300;
+	font-style: italic;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 28px;
 }
 
 ol, ul {
@@ -238,6 +243,35 @@ a:hover {
 	text-decoration: none;
 }
 
+.form-group {
+	text-align: left;
+	margin-left: 3%;
+	font-weight: 300;
+}
+
+.form-control {
+	width: 75%;
+}
+
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+
+html, body {
+    background-image: url("/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/images/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: 8.8%;
+}
+
+.navbar-nav {
+	float: right;
+	margin-left: 2%;
+	font-size: 1.1em;
+}
+
 .title {
 	text-align: left;
 	font-weight: 300;
@@ -256,26 +290,6 @@ h1 {
   border-width: 5px;
   padding: 1% 1% 1% 1%;
   position: absolute;
-}
-
-h2 {
-	text-align: left;
-	font-size: 51px;
-	font-weight: 00;
-	color: black;
-	margin-left: 3%;
-	margin-top: 3%;
-}
-
-h3 {
-	margin-left: 3%;
-	margin-right: 50%;
-	font-weight: 300;
-	font-style: italic;
-	color: black;
-	text-align: left;
-	font-size: 20px;
-	margin-bottom: 28px;
 }
 
 td, th {
