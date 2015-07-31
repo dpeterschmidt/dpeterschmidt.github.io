@@ -200,6 +200,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.title {
+	font-size: 100px;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {
@@ -261,6 +265,15 @@ li:hover {
 	margin-left: 3%;
 }
 
+.title {
+	text-align: left;
+	font-weight: 300;
+	font-size: 70px;
+	position: fixed;
+	color: black;
+	padding-left: 3%;
+}
+
 }
 
 /*Desktop*/
@@ -286,7 +299,6 @@ html, body {
 	font-size: 70px;
 	position: fixed;
 	color: black;
-	margin-top: -51%;
 	padding-left: 3%;
 }
 
