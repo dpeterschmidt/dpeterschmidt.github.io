@@ -131,12 +131,13 @@ label {
 }
 
 .footer {
-	padding-top: 10px; */
+	padding-top: 10px; 
 	font-size: 1.1875em;
 	font-weight: 300;
-	color: white;
-	padding: 3%;
-	background-color: #464042;
+	color: black;
+	padding: 2%;
+	/*background-color: rgb(246, 246, 246);*/
+	background-color: transparent;
 	font-size: 15px;
 }
 
