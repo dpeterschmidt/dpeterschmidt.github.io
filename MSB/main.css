@@ -42,20 +42,6 @@ table {
 	margin-top: 5%;
 }
 
-/*Need a wrap deal*/
-/*tr {	
-		-webkit-transition: opacity 0.2s;
-
-}
-
-tr:hover {
-	visibility: visible;
-	opacity: 1;
-	background-color: #FBE0BD;
-	-webkit-transition: opacity 0.2s;
-
-}*/
-
 td, th {
 	width: 100%;
 	display: inline-block;
@@ -94,7 +80,7 @@ h1 {
 	color: black;
 	margin: 2% 28% 0% 28%;  
 	text-align: center;
-	border: 5px solid black;
+	border: 3px solid black;
     padding: 0.5% 0% 0.5% 0%;
 }
 
@@ -200,6 +186,7 @@ p {
 
 h1 {
 	margin: 2% 42% 0% 42%;  
+	font-weight: 100;
 }
 
 h2 {
