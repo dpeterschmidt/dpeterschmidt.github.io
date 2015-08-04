@@ -3,7 +3,7 @@ html, body {
   	font-family: 'Alegreya', serif;
     color: black;
     text-align: center;
-    background-color: #F8E9D6;
+    background-color: white;
     height: 100%;
 }
 
@@ -33,12 +33,17 @@ h3 {
 	color: black;
 }
 
+h4 {
+	font-size: 70px;
+}
+
 table {
 	width: 100%;
+	margin-top: 5%;
 }
 
 /*Need a wrap deal*/
-tr {	
+/*tr {	
 		-webkit-transition: opacity 0.2s;
 
 }
@@ -49,7 +54,7 @@ tr:hover {
 	background-color: #FBE0BD;
 	-webkit-transition: opacity 0.2s;
 
-}
+}*/
 
 td, th {
 	width: 100%;
@@ -112,7 +117,7 @@ p {
 }
 
 .navbar-nav {
-	font-size: 1.1em;
+	font-size: 1.5em;
 	display: inline-block;
 	float: none;
 }
@@ -126,7 +131,7 @@ p {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: black;
+	color: #9A9A9A;
 	font-weight: 300;
 }
 
@@ -205,10 +210,11 @@ h2 {
 }
 
 td, th {
-	width: 29%;
+	width: 28%;
 	margin: 5.3% 2% 5.3% 2%;
 	font-size: 28px;
 	font-weight: 300;
+	background-color: lightgrey;
 }
 
 p {
