@@ -37,6 +37,21 @@ h4 {
 	font-size: 70px;
 }
 
+h5 {
+    font-size: 55px;
+    text-align: left;
+    display: inline-grid;
+    margin-left: 20%;
+}
+
+h6 {
+	font-size: 20px;
+	text-align: left;
+	font-style: italic;
+    margin: 0% 50% 0% 20%;
+    display: inline-block;
+}
+
 table {
 	width: 100%;
 	margin-top: 5%;
@@ -161,6 +176,21 @@ p {
 	margin: 0 auto -4em;
 }
 
+.contact {
+	text-align: left;
+    display: inline-block;
+    margin-top: -10%;
+    margin-left: 20%;
+}
+
+.head {
+	font-size: 18px;
+}
+
+.text {
+
+}
+
 
 /*Tablet*/
 @media (min-width: 768px) { 
@@ -275,14 +305,13 @@ p {
   animation-name: fadeInDown;
 }
 
-
 @font-face {
     font-family: 'si';
-    src: url('/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/socicon.eot');
-    src: url('/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/socicon.eot?#iefix') format('embedded-opentype'),
-         url('/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/socicon.woff') format('woff'),
-         url('/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/socicon.ttf') format('truetype'),
-         url('/users/danielpeterschmidt/dpeterschmidt.github.io/LJ/socicon.svg#icomoonregular') format('svg');
+    src: url('/MSB/socicon.eot');
+    src: url('/MSB/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/MSB/socicon.woff') format('woff'),
+         url('/MSB/socicon.ttf') format('truetype'),
+         url('/MSB/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
  
@@ -299,6 +328,7 @@ p {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
+    margin-top: 2%;
 }
 
 .soc li {
@@ -324,14 +354,14 @@ p {
     display:block;
     position: relative;
     z-index: 1;
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 25px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 44px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    margin-right: 15px;
+    margin-right: 10px;
     color: #ffffff;
     background-color: none;
 }
@@ -357,6 +387,12 @@ p {
 }
 .soc-youtube:before {
     content:'r';
+}
+.soc-instagram {
+    background-color: #9c7c6e;
+}
+.soc-instagram:before {
+    content:'x';
 }
 
 
