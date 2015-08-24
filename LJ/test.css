@@ -311,11 +311,11 @@ li:hover {
 @media (min-width: 992px) {
 
 html, body {
-    background-image: url("/LJ/images/background.png");
+    /*background-image: url("/LJ/images/background.png");
     background-size: 100%;
     background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position-y: 8.8%;
+	background-position-y: 8.8%;*/
 }
 
 .navbar-nav {
