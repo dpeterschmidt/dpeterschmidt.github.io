@@ -218,6 +218,19 @@ a:hover {
 	font-weight: 300;
 }
 
+.btn {
+	font-weight: 300;
+	padding: 8px 61px;
+}
+
+.btn-group {
+	/*margin: 1% 0% 0% 3%;*/
+}
+
+.pull-left {
+	display: inline-block;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {

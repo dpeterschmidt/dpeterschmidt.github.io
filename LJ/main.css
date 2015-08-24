@@ -172,6 +172,10 @@ p {
 	border-color: grey; 
 }
 
+.btn {
+	font-weight: 300;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 .navbar-nav {
