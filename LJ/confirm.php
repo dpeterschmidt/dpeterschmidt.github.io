@@ -12,7 +12,8 @@ if (isset($_POST['send'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta charset="utf-8" http-equiv="encoding">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
