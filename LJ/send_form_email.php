@@ -92,7 +92,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Artist name: ".clean_string($artist)."\n";
  
-    $email_message .= "Description: ".clean_string($email_from)."\n";
+    $email_message .= "Description: ".clean_string($desc)."\n";
  
 
 // create email headers
