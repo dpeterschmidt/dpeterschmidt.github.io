@@ -6,8 +6,8 @@ if(isset($_POST['submit'])){
     $desc = $_POST['desc'];
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
-    $message = $artist . " " . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $artist . "\n\n" . $_POST['message'];
+    $message = $artist . " " . " wrote the following:" . "\n\n" . $_POST['desc'];
+    $message2 = "Here is a copy of your message " . $artist . "\n\n" . $_POST['desc'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
