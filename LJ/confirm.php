@@ -1,4 +1,5 @@
 <?php
+header('Content-type: text/html; charset=utf-8');
 if (isset($_POST['send'])) {
      $to = 'dpete93@gmail.com'; // Use your own email address
      $subject = 'Test';
