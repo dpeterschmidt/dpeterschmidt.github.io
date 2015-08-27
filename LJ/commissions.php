@@ -1,19 +1,19 @@
 <?php 
 if(isset($_POST['submit'])){
-    $to = "email@example.com"; // this is your Email address
+    $to = "dpete93@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
+    $artist = $_POST['artist'];
+    $desc = $_POST['desc'];
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    $message = $artist . " " . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $artist . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    echo "Mail Sent. Thank you " . $artist . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
@@ -66,7 +66,7 @@ if(isset($_POST['submit'])){
 <h2>COMMISSION A SONG</h2>
 <h3>Want a song? We write them. Fill out the form below to give us some details and we'll get back to you as soon as we can.</h3>
 
-<form name = "com_form" method = "post" action = "/LJ/send_form_email.php">
+<form method = "post" action = "">
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="What's your email address?" name = "email">
@@ -79,7 +79,7 @@ if(isset($_POST['submit'])){
   	<label for="exampleInputEmail1">Description</label>
     <textarea class="form-control" rows="3" placeholder = "Give us an idea of the vibe of the song." name = "desc"></textarea>
   </div>
-  <button type="submit" value = "Submit" class="btn btn-default pull-left">Submit</button>
+  <button type="submit" name = "submit" value = "Submit" class="btn btn-default pull-left">Submit</button>
 </form>
 
 <br><br><br><br><br><br>
