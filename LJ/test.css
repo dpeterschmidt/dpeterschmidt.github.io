@@ -227,9 +227,9 @@ a:hover {
 	/*margin: 1% 0% 0% 3%;*/
 }
 
-.pull-left {
+/*.pull-left {
 	display: inline-block;
-}
+}*/
 
 /*Tablet*/
 @media (min-width: 768px) { 
@@ -378,6 +378,14 @@ td, th {
 .btn {
 	margin-bottom: 14px;
 	margin-left: 3%;
+}
+
+.pull-left {
+    float: left!important;
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 70%;
+	margin-bottom: 2%;
 }
 }
 
