@@ -404,8 +404,10 @@ td, th {
 
 .soc {
     overflow:hidden;
-    margin:0; padding:0;
+    margin:0;
+    padding:0;
     list-style:none;
+    display: inline-block;
 }
 
 .soc li {
@@ -440,7 +442,7 @@ td, th {
     border-radius: 10px;
     margin-right: 0px;
     color: black;
-    background-color: #ffffff;
+    background-color: #F5F5F5;
 }
 
 .soc-icon-last{
