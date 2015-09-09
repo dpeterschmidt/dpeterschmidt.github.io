@@ -25,9 +25,9 @@ h3 {
 }
 
 h4 {
-	float: left;
-	/*margin-left: 10%;*/
 	color: #337ab7;
+	text-align: center;
+	margin-bottom: -10%;
 }
 
 h5 {
@@ -196,6 +196,8 @@ a:hover {
 
 h4 {
 	margin-left: 3%;
+	float: left;
+	margin-bottom: 0%;
 }
 
 .navbar-nav {
