@@ -15,10 +15,7 @@ hr {
 h1 {
 	font-size: 50px;
 	color: black;
-	/*margin: 2% 28% 0% 28%;  */
 	text-align: center;
-	/*border: 3px solid black;*/
-    /*padding: 0.5% 0% 0.5% 0%;*/
 }
 
 h2 {
@@ -43,22 +40,22 @@ h4 {
 
 h5 {
     font-size: 55px;
-    text-align: left;
+    text-align: center;
     display: inline-grid;
-    margin-left: 20%;
+    /*margin-left: 20%;*/
 }
 
 h6 {
-	font-size: 20px;
-	text-align: left;
+	font-size: 18px;
+	text-align: center;
 	font-style: italic;
-    margin: 0% 50% 0% 20%;
+    margin: 0% 20% 0% 20%;
     display: inline-block;
 }
 
 table {
 	width: 100%;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 td, th {
@@ -66,6 +63,7 @@ td, th {
 	display: inline-block;
 	margin-top: 1%;
   	margin-bottom: 1%;
+  	font-size: 18px;
 }
 
 a {
@@ -216,6 +214,10 @@ h4 {
     margin: 0;
 }
 
+h6 {
+	margin: 0% 35% 0% 35%;
+}
+
 }
 
 /*Desktop*/
@@ -244,12 +246,39 @@ h2 {
 	font-weight: 400;
 }
 
-td, th {
+h5 {
+	text-align: left;
+	margin-left: 20%;
+}
+
+h6 {
+	font-size: 20px;
+	text-align: left;
+	font-style: italic;
+    margin: 0% 50% 0% 20%;
+    display: inline-block;
+}
+
+/*Index table*/
+/*td, th {
 	width: 28%;
 	margin: 5.3% 2% 5.3% 2%;
 	font-size: 28px;
 	font-weight: 300;
 	background-color: lightgrey;
+}*/
+
+table {
+    width: 100%;
+    /*margin-top: -11%;*/
+    margin-left: 21%;
+}
+
+td, th {
+    width: 28%;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
 }
 
 p {
@@ -298,6 +327,14 @@ p {
 	width: 32%;
 	display: inline-block;
 	margin: 1% 8% 1% -7%;
+}
+
+.touch {
+	margin-top: -11%;
+}
+
+.location {
+	margin-top: -6%;
 }
 
 }
