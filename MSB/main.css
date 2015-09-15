@@ -75,7 +75,7 @@ a:hover {
 }
 
 img {
-	width: 52%;
+	width: 83%;
 }
 
 .footer {
@@ -257,6 +257,10 @@ h6 {
 	font-style: italic;
     margin: 0% 50% 0% 20%;
     display: inline-block;
+}
+
+img {
+	width: 52%;
 }
 
 /*Index table*/
