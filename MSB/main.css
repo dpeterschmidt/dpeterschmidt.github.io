@@ -34,7 +34,10 @@ h3 {
 }
 
 h4 {
-	font-size: 70px;
+	font-size: 36px;
+	float: left;
+	display: inline;
+    margin: 3% 0% 0% 4%;
 }
 
 h5 {
@@ -123,14 +126,6 @@ p {
 	float: none;
 }
 
-.navbar-default .navbar-toggle {
-	margin-top: 17px;
-}
-
-.navbar-nav>li>a {
-	padding-top: 20px;
-}
-
 .navbar-default .navbar-nav>li>a {
 	color: #9A9A9A;
 	font-weight: 300;
@@ -140,6 +135,31 @@ p {
 	color: black;
     font-weight: 700;
     background-color: transparent;
+}
+
+.navbar {
+	border: none;
+	margin-bottom: 0px;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+	margin-top: 17px;
+}
+
+.navbar-nav>li>a {
+	padding-top: 20px;
+}
+
+.nav-pills>li.active>a {
+	background-color: transparent;
+    font-weight: 400;
+    color: black;
+}
+
+.nav-pills>li.active>a:hover {
+	background-color: transparent;
+    color: black;
 }
 
 .screenshot {
@@ -196,6 +216,12 @@ p {
 @media (min-width: 768px) { 
 .navbar-nav {
 	/*float: right;*/
+}
+
+h4 {
+	font-size: 70px;
+	float: none;
+    margin: 0;
 }
 
 }
@@ -289,7 +315,7 @@ p {
 
 }
 
-@keyframes fadeInDown {
+/*@keyframes fadeInDown {
   0% {
     opacity: 0;
     transform: translate3d(0, -100%, 0);
@@ -304,7 +330,7 @@ p {
 .fadeInDown {
   animation-name: fadeInDown;
 }
-
+*/
 @font-face {
     font-family: 'si';
     src: url('/MSB/socicon.eot');
