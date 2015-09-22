@@ -1,4 +1,12 @@
 /*Phone*/
+.m_contact {
+	display: inline-block;
+}
+
+.d_contact {
+	display: none;
+}
+
 html, body {
   	font-family: 'Alegreya', serif;
     color: black;
@@ -49,8 +57,8 @@ h6 {
 	font-size: 18px;
 	text-align: center;
 	font-style: italic;
-    margin: 0% 20% 0% 20%;
-    display: inline-block;
+    /*margin: 0% 20% 0% 20%;*/
+    /*display: inline-block;*/
 }
 
 table {
@@ -204,6 +212,7 @@ p {
 
 /*Tablet*/
 @media (min-width: 768px) { 
+
 .navbar-nav {
 	/*float: right;*/
 }
@@ -215,13 +224,21 @@ h4 {
 }
 
 h6 {
-	margin: 0% 35% 0% 35%;
+	/*margin: 0% 35% 0% 35%;*/
 }
 
 }
 
 /*Desktop*/
 @media (min-width: 992px) {
+.m_contact {
+	display: none;
+}
+
+.d_contact {
+	display: table;
+}
+
 h1 {
 	/*margin: 2% 41% 0% 41%;  */
 }
@@ -248,15 +265,17 @@ h2 {
 
 h5 {
 	text-align: left;
-	margin-left: 20%;
+	padding-left: 45%;
 }
 
 h6 {
 	font-size: 20px;
 	text-align: left;
 	font-style: italic;
-    margin: 0% 50% 0% 20%;
-    display: inline-block;
+	padding-left: 45%;
+	padding-bottom: 16%;
+    /*margin: 0% 50% 0% 20%;*/
+    /*display: inline-block;*/
 }
 
 img {
@@ -273,8 +292,8 @@ img {
 }*/
 
 table {
-    width: 100%;
-    /*margin-top: -11%;*/
+    /*width: 100%;*/
+    margin-top: 0%;
     margin-left: 21%;
 }
 
@@ -334,11 +353,13 @@ p {
 }
 
 .touch {
-	margin-top: -11%;
+	/*margin-left: 55%;*/
+    position: absolute;
 }
 
 .location {
-	margin-top: -6%;
+	/*margin-top: -6%;*/
+	position: absolute;
 }
 
 }
@@ -371,7 +392,8 @@ p {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 1%;
 }
 
 .soc li {
@@ -397,10 +419,10 @@ p {
     display:block;
     position: relative;
     z-index: 1;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 44px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 30px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
