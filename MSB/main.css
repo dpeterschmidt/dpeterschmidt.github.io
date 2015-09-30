@@ -8,7 +8,7 @@
 }
 
 html, body {
-  	font-family: 'Alegreya', serif;
+  	font-family: 'Josefin Sans', sans-serif;
     color: black;
     text-align: center;
     background-color: white;
@@ -40,10 +40,12 @@ h3 {
 }
 
 h4 {
+	font-family: 'Arapey', serif;
 	font-size: 36px;
 	float: left;
 	display: inline;
     margin: 3% 0% 0% 4%;
+    color: #444444;
 }
 
 h5 {
