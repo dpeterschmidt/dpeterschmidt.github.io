@@ -1,5 +1,9 @@
 /*Phone*/
 
+.juicer-feed .j-meta a {
+	display: none;
+}
+
 .mobile {
 	display: inline;
 }
