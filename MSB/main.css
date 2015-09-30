@@ -130,7 +130,7 @@ p {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	color: black;
+	color: #6499AE;
     font-weight: 700;
     background-color: transparent;
 }
@@ -427,7 +427,7 @@ p {
     -moz-border-radius: 10px;
     border-radius: 10px;
     margin-right: 10px;
-    color: #69CBC8;
+    color: #6499AE;
     background-color: white;
 }
 
