@@ -1,10 +1,48 @@
 /*Phone*/
+.desktop {
+	display: none;
+}
+
 .m_contact {
 	display: inline-block;
 }
 
 .d_contact {
 	display: none;
+}
+
+.wrap {
+	position: relative;
+}
+
+.description {
+	text-align: center;
+	font-size: 18px;
+	position: absolute;
+	margin: 0;
+	padding: 30% 10% 0% 10%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 195, 179, 0.7);
+	border-radius: 5px;
+	color: #fff;
+	visibility: hidden; 
+	opacity: 0; 
+	-webkit-transition: opacity 0.2s;
+}
+
+.mob_desc {
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	margin: 0;
+}
+
+.wrap:hover .description {
+  visibility: visible;
+  opacity: 1;
 }
 
 html, body {
@@ -88,6 +126,10 @@ img {
 	width: 83%;
 }
 
+strong {
+	font-size: 40px;
+}
+
 .footer {
 	padding-top: 10px;
     font-weight: 300;
@@ -132,8 +174,8 @@ p {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	color: #6499AE;
-    font-weight: 700;
+	color: #00C3B3;
+    font-weight: 600;
     background-color: transparent;
 }
 
@@ -211,6 +253,25 @@ p {
 
 }
 
+.baby {
+	padding-top: 1%;
+}
+
+.index {
+	width: 100%;
+	margin-left: 0%;
+}
+
+.sub {
+	width: 100%;
+	padding: 0% 9% 0 6%;
+}
+
+.space {
+	margin: 2% 1% 2% 1%;
+	text-align: center;
+}
+
 
 /*Tablet*/
 @media (min-width: 768px) { 
@@ -229,6 +290,10 @@ h6 {
 	/*margin: 0% 35% 0% 35%;*/
 }
 
+.nav>li>a {
+    padding: 20px 24px;
+}
+
 }
 
 /*Desktop*/
@@ -239,6 +304,14 @@ h6 {
 
 .d_contact {
 	display: table;
+}
+
+.desktop {
+	display: inherit;
+}
+
+.mobile {
+	display: none;
 }
 
 h1 {
@@ -352,6 +425,10 @@ p {
 	width: 32%;
 	display: inline-block;
 	margin: 1% 8% 1% -7%;
+}
+
+.sub {
+	padding: 0;
 }
 
 .touch {
