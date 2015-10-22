@@ -421,6 +421,10 @@ p {
 .soc-instagram:before {
     content:'x';
 }
+
+.soc-vimeo:before {
+    content:'s';
+}
 .soc-github:before {
     content:'Q';
 }
