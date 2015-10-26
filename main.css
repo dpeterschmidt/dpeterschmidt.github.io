@@ -1,5 +1,11 @@
 /*Phone*/
 
+.button {
+	border: 1px solid black;
+	position: static;
+	float: right;
+}
+
 html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
@@ -205,10 +211,12 @@ h4 {
 }
 }
 
+
 /*Desktop*/
 @media (min-width: 992px) {
 
 html, body {
+	back
 }
 
 h1 {
