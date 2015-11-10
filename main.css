@@ -15,6 +15,8 @@ html, body {
 h1 {
 	font-size: 2.625em; /*42/16*/
 	margin: 0;
+	text-align: left;
+	padding: 2%;
 }
 
 h2 {
@@ -22,6 +24,8 @@ h2 {
 	font-weight: 300;
 	color: #646262;
 	margin: 0;
+	text-align: left;
+	padding: 2%;
 }
 
 h3 {
@@ -223,11 +227,13 @@ h1 {
 	text-align: left;
 	margin-left: 10%;
 	margin-top: 3%;
+	padding: 0;
 }
 
 h2 {
 	text-align: left;
 	margin-left: 10%;
+	padding: 0;
 }
 
 h4 {
