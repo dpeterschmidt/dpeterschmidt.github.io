@@ -221,7 +221,11 @@ a:hover {
 }
 
 .proj_link {
-	padding: 0% 19% 0% 0%;
+	padding: none;
+}
+
+.poster_link {
+	padding: none;
 }
 
 /*Tablet*/
@@ -381,6 +385,15 @@ p {
 	border-width: 1px;
 	border-color: grey; 
 }
+
+.proj_link {
+	padding: 0% 19% 0% 0%;
+}
+
+.poster_link {
+	padding: 0% 35% 0% 0%;
+}
+
 }
 
 
