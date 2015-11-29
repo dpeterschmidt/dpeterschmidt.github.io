@@ -474,6 +474,10 @@ p {
 .soc-vimeo:before {
     content:'s';
 }
+
+.soc-soundcloud:before {
+    content:'n';
+}
 .soc-github:before {
     content:'Q';
 }
