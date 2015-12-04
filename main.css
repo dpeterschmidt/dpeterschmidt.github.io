@@ -445,10 +445,10 @@ p {
     display:block;
     position: relative;
     z-index: 1;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 33px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
