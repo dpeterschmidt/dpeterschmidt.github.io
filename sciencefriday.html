@@ -53,7 +53,7 @@
 	</div>
 </div>
 
-<div class = "card" id = "cd2">
+<!-- <div class = "card" id = "cd2">
 	<div class = "c_heading">2 of 3</div>
 	<button class = "c_arrow_left" id = "btn2a"> < </button>
 	<button class = "c_arrow_right" id = "btn2b"> > </button>
@@ -74,18 +74,20 @@
 		<img src="/users/danielpeterschmidt/dpeterschmidt.github.io/images/thumbs.png">
 		<div class = "c_social"><img src="/users/danielpeterschmidt/dpeterschmidt.github.io/images/social.png"></div>
 	</div>
-</div>
+</div> -->
 
 <script>
 
 $( document ).ready(function() {
 
-    $("#cd2").hide();
-    $("#cd3").hide();
+    // $("#cd2").hide();
+    // $("#cd3").hide();
     // });
 	$('#btn1').on("click", function() {
-		$("#cd1").hide();
-		$("#cd2").show();
+		$("cd1").toggle();
+		// $("cd1").fadeOut();
+		// $("#cd1").hide();
+		// $("#cd2").show();
 	});
 	$('#btn2a').on("click", function() {
 		$("#cd2").hide();
