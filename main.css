@@ -7,8 +7,7 @@
 }
 
 .card {
-	/*border: solid 1px lightgrey; */
-	width: 37%;
+	width: 90%;
 	margin: 0% 0% 0% 4%;
 }
 
@@ -35,41 +34,41 @@
 
 .c_text {
 	font-size: inherit;
-	padding: 0% 13% 2% 13%;
+	padding: 0% 2% 2% 2%;
 	font-weight: 200;
 	text-align: left;
 }
 
-.c_arrow_right {
-	width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 38px;
-    color: #F3482B;
-    line-height: 45px;
+.c_arrow_left {
+	width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    font-size: 19px;
+    color: white;
+    line-height: 17px;
     text-align: center;
     font-weight: 100;
     background-color: rgba(204, 0, 102, 0);
-    border: 1px solid #F3482B;
+    border: 1px solid white;
     position: absolute;
-    left: 35%;
-    top: 40%;
+    left: 8%;
+    top: 13%;
 }
 
-.c_arrow_left {
-	width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 38px;
-    color: #F3482B;
-    line-height: 45px;
+.c_arrow_right {
+	width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    font-size: 19px;
+    color: white;
+    line-height: 17px;
     text-align: center;
     font-weight: 100;
     background-color: rgba(204, 0, 102, 0);
-    border: 1px solid #F3482B;
+    border: 1px solid white;
     position: absolute;
-    left: 6%;
-    top: 40%;
+    left: 82%;
+    top: 13%;
 }
 
 .c_social {
@@ -298,8 +297,36 @@ a:hover {
 	padding: none;
 }
 
+/*Phablet*/
+@media (min-width: 550px) { 
+	.c_arrow_left {
+	left: 8%;
+	top: 14%;
+}
+
+.c_arrow_right {
+    left: 84%;
+    top: 14%;
+}
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
+
+.card {
+	width: 50%;
+}
+
+.c_arrow_left {
+	left: 7%;
+	top: 13%;
+}
+
+.c_arrow_right {
+	left: 49%;
+    top: 13%;
+}
+
 
 h4 {
 	margin-left: 3%;
@@ -318,6 +345,21 @@ h4 {
 
 html, body {
 }
+
+.card {
+	width: 37%;
+}
+
+.c_arrow_left {
+    left: 6%;
+    top: 13%;
+}
+
+.c_arrow_right {
+    left: 37%;
+    top: 13%;
+}
+
 
 h1 {
 	text-align: left;
