@@ -6,6 +6,76 @@
 	float: right;
 }
 
+.card {
+	/*border: solid 1px lightgrey; */
+	width: 37%;
+	margin: 0% 0% 0% 4%;
+}
+
+.c_heading {
+	background-color: #F3482B;
+	color: white;
+	font-weight: 200;
+	padding: 2%;
+	font-size: 20px;
+}
+
+.c_title {
+	color: black;
+	font-size: 45px;
+	padding: 2%;
+	text-align:left;
+}
+
+.c_body {
+	color: black;
+	padding: 2% 7%;
+	background-color:#EFEFEF;
+}
+
+.c_text {
+	font-size: inherit;
+	padding: 0% 13% 2% 13%;
+	font-weight: 200;
+	text-align: left;
+}
+
+.c_arrow_right {
+	width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 38px;
+    color: #F3482B;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 100;
+    background-color: rgba(204, 0, 102, 0);
+    border: 1px solid #F3482B;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+.c_arrow_left {
+	width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 38px;
+    color: #F3482B;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 100;
+    background-color: rgba(204, 0, 102, 0);
+    border: 1px solid #F3482B;
+    position: absolute;
+    left: 6%;
+    top: 40%;
+}
+
+.c_social {
+	padding: 2%;
+}
+
 html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
