@@ -1,5 +1,11 @@
 /*Phone*/
 
+#toggle {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
+
 .button {
 	border: 1px solid black;
 	position: static;
@@ -68,7 +74,7 @@
     border: 1px solid white;
     position: absolute;
     left: 82%;
-    top: 13%;
+    top: 16%;
 }
 
 .c_social {
