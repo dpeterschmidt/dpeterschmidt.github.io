@@ -324,12 +324,12 @@ a:hover {
 }
 
 .c_arrow_left {
-	left: 7%;
+	left: 12%;
 	top: 9.2%;
 }
 
 .c_arrow_right {
-	left: 46%;
+	left: 50%;
     top: 9.2%;
 }
 
@@ -356,12 +356,12 @@ html, body {
 }
 
 .c_arrow_left {
-    left: 6%;
+    left: 12%;
     top: 13%;
 }
 
 .c_arrow_right {
-    left: 37%;
+    left: 43%;
     top: 13%;
 }
 
