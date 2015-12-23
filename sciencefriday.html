@@ -51,7 +51,7 @@
 <hr>
 
 <div class = "card" id = "cd1">
-	<div class = "c_heading">1 of 3</div>
+	<div class = "c_heading">1 of 4</div>
 	<button class = "c_arrow_right" id = "btn1">></button>
 	<div class = "c_body">
 		<div class = "c_title">Science Facts About Chocolate</div>
@@ -64,7 +64,7 @@
 </div>
 
 <div class = "card" id = "cd2">
-	<div class = "c_heading">2 of 3</div>
+	<div class = "c_heading">2 of 4</div>
 	<button class = "c_arrow_left" id = "btn2a"> < </button>
 	<button class = "c_arrow_right" id = "btn2b"> > </button>
 	<div class = "c_body">
@@ -79,8 +79,22 @@
 </div>
 
 <div class = "card" id = "cd3">
-	<div class = "c_heading">3 of 3</div>
-	<button class = "c_arrow_left" id = "btn3"> < </button>
+	<div class = "c_heading">3 of 4</div>
+	<button class = "c_arrow_left" id = "btn3a"> < </button>
+	<button class = "c_arrow_right" id = "btn3b"> > </button>
+	<div class = "c_body">
+		<div class = "c_title" style = "font-size:33px;">Check out this clip about how liquid smoke is made.</div>
+		<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236119210&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+		<div class = "c_social">
+			<a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Check out how to make homemade chocolate from Science Friday!" data-via="scifri" data-size="large" data-related="scifri">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+	</div>
+</div>
+
+<div class = "card" id = "cd4">
+	<div class = "c_heading">4 of 4</div>
+	<button class = "c_arrow_left" id = "btn4"> < </button>
 	<div class = "c_body">
 		<div class = "c_title">You just got scienced!</div>
 		<div class = "c_text">What did you think of the thing?</div>
@@ -99,11 +113,9 @@ $( document ).ready(function() {
 
     $("#cd2").hide();
     $("#cd3").hide();
-    // });
-	$('#btn1').on("click", function() {
-		// $("cd1").hide();
-		// $("cd1").fadeOut();
+    $("#cd4").hide();
 
+	$('#btn1').on("click", function() {
 		$("#cd1").slideToggle(300);
 		$("#cd2").slideToggle(300);
 	});
@@ -115,9 +127,17 @@ $( document ).ready(function() {
 		$("#cd2").slideToggle(300);
 		$("#cd3").slideToggle(300);
 	});
-	$('#btn3').on("click", function() {
+	$('#btn3a').on("click", function() {
 		$("#cd3").slideToggle(300);
 		$("#cd2").slideToggle(300);
+	});
+	$('#btn3b').on("click", function() {
+		$("#cd3").slideToggle(300);
+		$("#cd4").slideToggle(300);
+	});
+	$('#btn4').on("click", function() {
+		$("#cd4").slideToggle(300);
+		$("#cd3").slideToggle(300);
 	});
 
 
