@@ -62,7 +62,7 @@
 }
 
 .c_arrow_right {
-	width: 30px;
+	width: 25px;
     height: 25px;
     border-radius: 12.5px;
     font-size: 19px;
@@ -73,7 +73,7 @@
     background-color: rgba(204, 0, 102, 0);
     border: 1px solid white;
     position: absolute;
-    left: 82%;
+    left: 81%;
     top: 15.5%;
 }
 
