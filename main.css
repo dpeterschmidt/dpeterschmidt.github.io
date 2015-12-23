@@ -345,6 +345,21 @@ h4 {
 }
 }
 
+@media (min-width: 880px) { 
+
+.c_arrow_left {
+	left: 7%;
+	top: 8.8%;
+}
+
+.c_arrow_right {
+	left: 44%;
+    top: 8.8%;
+}
+
+
+}
+
 
 /*Desktop*/
 @media (min-width: 992px) {
