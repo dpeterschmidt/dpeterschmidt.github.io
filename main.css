@@ -56,7 +56,7 @@
     font-weight: 100;
     background-color: rgba(204, 0, 102, 0);
     border: 1px solid white;
-    position: absolute;
+    position: fixed;
     left: 8%;
     top: 16%;
 }
@@ -357,12 +357,12 @@ html, body {
 
 .c_arrow_left {
     left: 6%;
-    top: 13%;
+    top: 6%;
 }
 
 .c_arrow_right {
     left: 37%;
-    top: 13%;
+    top: 6%;
 }
 
 
