@@ -307,12 +307,12 @@ a:hover {
 @media (min-width: 550px) { 
 	.c_arrow_left {
 	left: 8%;
-	top: 18%;
+	top: 22%;
 }
 
 .c_arrow_right {
     left: 84%;
-    top: 18%;
+    top: 22%;
 }
 }
 
