@@ -86,10 +86,11 @@
 	<div class = "c_body">
 		<div class = "c_title">Fact 1</div>
 		<div class = "c_text">Cocoa butter melts at 97°F. That’s right, just below body temperature. So it actually does melt in your mouth.</div>
+		<div class = "c_subtitle"><em><a target = "_blank" href="http://sciencefriday.com">Reference: blah blah blah</a></em></div>
 		<img style = "width:96%; padding-top:2%;" src="http://www.sciencefriday.com/wp-content/uploads/2015/12/image3.jpg">
+		<div class = "c_subtitle_img"><em><a target = "_blank" href="http://sciencefriday.com">Reference: blah blah blah</a></em></div>
 		<div class = "c_social">
-			<a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Check out how to make homemade chocolate from Science Friday!" data-via="scifri" data-size="large" data-related="scifri">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<a href="https://twitter.com/intent/tweet?text=Behold%2C%20the%20gargantuan%20stick%20insect%21%20scifri.me%2Ft7%20via%20%40SciFri%20pic.twitter.com%2FFXrqdUUOt3&source=webclient">Tweet</a>
 		</div>
 	</div>
 </div>
@@ -139,9 +140,12 @@
 
 $( document ).ready(function() {
 
-    $("#cd2").hide();
+    $("#cd1").hide();
     $("#cd3").hide();
     $("#cd4").hide();
+
+// Try fade out from: https://www.sitepoint.com/community/t/image-crossfade-with-javascript/3601/2
+
 
 	$('#btn1').on("click", function() {
 		$("#cd1").slideToggle(300);

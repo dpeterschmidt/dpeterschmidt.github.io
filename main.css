@@ -44,10 +44,24 @@
 }
 
 .c_text {
-	font-size: inherit;
+	font-size: 19px;
 	padding: 0% 2% 2% 2%;
 	font-weight: 200;
 	text-align: left;
+}
+
+.c_subtitle {
+	font-size: inherit;
+	text-align: left;
+	padding: 0% 2% 2% 2%;
+	font-weight: 100;
+}
+
+.c_subtitle_img {
+	font-size: inherit;
+	text-align: left;
+	padding: 2%;
+	font-weight: 100;
 }
 
 .c_arrow_left {
