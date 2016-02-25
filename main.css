@@ -18,8 +18,8 @@
 }
 
 .card {
-	width: 90%;
-	margin: 0% 0% 0% 4%;
+	width: 75%;
+	margin: 0% 15% 0% 15%;
 }
 
 .c_heading {
@@ -311,11 +311,6 @@ a:hover {
 /*Tablet*/
 @media (min-width: 768px) { 
 
-.card {
-	width: 50%;
-}
-
-
 h4 {
 	margin-left: 3%;
 	float: left;
@@ -331,10 +326,6 @@ h4 {
 @media (min-width: 992px) {
 
 html, body {
-}
-
-.card {
-	width: 37%;
 }
 
 h1 {
