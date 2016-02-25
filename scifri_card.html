@@ -90,7 +90,7 @@
 		<img style = "width:96%; padding-top:2%;" src="http://www.sciencefriday.com/wp-content/uploads/2015/12/image3.jpg">
 		<div class = "c_subtitle_img"><em><a target = "_blank" href="http://sciencefriday.com">Reference: blah blah blah</a></em></div>
 		<div class = "c_social">
-			<a href="https://twitter.com/intent/tweet?text=Behold%2C%20the%20gargantuan%20stick%20insect%21%20scifri.me%2Ft7%20via%20%40SciFri%20pic.twitter.com%2FFXrqdUUOt3&source=webclient">Tweet</a>
+			<a href="https://twitter.com/intent/tweet?text=Behold%2C%20the%20gargantuan%20stick%20insect%21%20scifri.me%2Ft7%20via%20%40SciFri%20pic.twitter.com%2FFXrqdUUOt3&source=webclient"><button class = "share"><img class = "twitter" src="https://g.twimg.com/Twitter_logo_white.png"><div style = "color:white; display:inline;">Tweet</div></button></a>
 		</div>
 	</div>
 </div>
@@ -140,36 +140,37 @@
 
 $( document ).ready(function() {
 
-    $("#cd1").hide();
+    $("#cd2").hide();
     $("#cd3").hide();
     $("#cd4").hide();
+
 
 // Try fade out from: https://www.sitepoint.com/community/t/image-crossfade-with-javascript/3601/2
 
 
 	$('#btn1').on("click", function() {
-		$("#cd1").slideToggle(300);
-		$("#cd2").slideToggle(300);
+		$("#cd1").fadeToggle(100);
+		$("#cd2").fadeToggle(100);
 	});
 	$('#btn2a').on("click", function() {
-		$("#cd2").slideToggle(300);
-		$("#cd1").slideToggle(300);
+		$("#cd2").fadeToggle(100);
+		$("#cd1").fadeToggle(100);
 	});
 	$('#btn2b').on("click", function() {
-		$("#cd2").slideToggle(300);
-		$("#cd3").slideToggle(300);
+		$("#cd2").fadeToggle(100);
+		$("#cd3").fadeToggle(100);
 	});
 	$('#btn3a').on("click", function() {
-		$("#cd3").slideToggle(300);
-		$("#cd2").slideToggle(300);
+		$("#cd3").fadeToggle(100);
+		$("#cd2").fadeToggle(100);
 	});
 	$('#btn3b').on("click", function() {
-		$("#cd3").slideToggle(300);
-		$("#cd4").slideToggle(300);
+		$("#cd3").fadeToggle(100);
+		$("#cd4").fadeToggle(100);
 	});
 	$('#btn4').on("click", function() {
-		$("#cd4").slideToggle(300);
-		$("#cd3").slideToggle(300);
+		$("#cd4").fadeToggle(100);
+		$("#cd3").fadeToggle(100);
 	});
 
 

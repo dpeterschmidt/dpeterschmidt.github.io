@@ -23,7 +23,7 @@
 }
 
 .c_heading {
-	background-color: #F3482B;
+	background-color: #e24134;
 	color: white;
 	font-weight: 200;
 	padding: 2%;
@@ -62,6 +62,19 @@
 	text-align: left;
 	padding: 2%;
 	font-weight: 100;
+}
+
+.share {
+	background-color: #1da1f2;
+    width: 25%;
+    padding: 2% 0%;
+    border-radius: 5%;
+    border: none;
+}
+
+.twitter {
+	width: 20%;
+    margin-right: 7%;
 }
 
 .c_arrow_left {
