@@ -32,7 +32,7 @@
 
 .c_title {
 	color: black;
-	font-size: 45px;
+	font-size: 33px;
 	padding: 2%;
 	text-align:left;
 }
@@ -66,8 +66,8 @@
 
 .share {
 	background-color: #1B95E0;
-    width: 15%;
-    padding: 1% 0%;
+    width: 35%;
+    padding: 3% 0%;
     border-radius: 5%;
     border: none;
 }
@@ -334,6 +334,15 @@ a:hover {
 
 /*Tablet*/
 @media (min-width: 768px) { 
+
+.c_title {
+	font-size: 45px;
+}
+
+.share {
+	width: 15%;
+    padding: 1% 0%;
+}
 
 h4 {
 	margin-left: 3%;
