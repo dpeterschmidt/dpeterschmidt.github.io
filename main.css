@@ -110,6 +110,19 @@
 	padding: 5% 0% 2% 0%;
 }
 
+.feedback {
+    border: none;
+    background-color: transparent;
+    font-size: 23px;
+    color: #E24134;
+    padding: 1% 4%;
+}
+
+.feedback:hover{
+    border: 1px solid #E24124;
+    -webkit-transition: opacity 0.2s;
+}
+
 html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
