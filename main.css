@@ -43,6 +43,15 @@
 	background-color:#EFEFEF;
 }
 
+.c_img_1 {
+	width: 96%;
+}
+
+.c_img {
+	width:96%; 
+	padding-top:2%;
+}
+
 .c_text {
 	font-size: 19px;
 	padding: 0% 2% 2% 2%;
@@ -75,6 +84,11 @@
 .twitter {
 	width: 20%;
     margin-right: 7%;
+}
+
+.tweet_text {
+	color:white; 
+	display:inline;
 }
 
 .c_arrow_left {
