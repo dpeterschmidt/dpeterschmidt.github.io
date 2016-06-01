@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Story</title>
+	<!-- Bootrstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="project.css">
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- Audio files -->
+<audio id = "forest" src="forest.mp3" autoplay></audio>
+<audio id = "subway" src="subway.mp3"></audio>
+
+<!-- Slide 1 -->
+<div class = "main" id = "1">
+	<img class = "img" src="http://65.media.tumblr.com/2ff648f4f840de0fc290517b3e1b4553/tumblr_o7746ftgUG1qcjd6zo2_1280.jpg">
+	<button class = "button_r" id = "r1">></button>
+	<div class = "text">This is the beginning.</div>
+
+</div>
+
+<!-- Slide 2 -->
+<div class = "main2" id = "2">
+	<img class = "img" src="http://65.media.tumblr.com/936e3155f8c37b332c91c055b77c29b8/tumblr_o6gxxxCN9v1qcjd6zo4_1280.jpg">
+	<button class = "button_l" id = "l2"><</button>
+	<button onclick="document.getElementById('forest').pause(); document.getElementById('subway').play();" class = "button_r" id = "r2">></button>
+	<div class = "text">This is the second slide.</div>
+
+</div>
+
+<!-- Slide 3 -->
+<div class = "main" id = "3">
+	<button class = "button_l" id = "l3"><</button>
+	<div class = "text">LOUD NOISES</div>
+
+</div>
+
+<script>
+
+$( document ).ready(function() {
+    
+    $("#1").hide();
+    $("#2").hide();
+    $("#3").hide();
+	$("#1").fadeToggle(4000);
+
+	$('#r1').on("click", function() {
+		$("#1").fadeToggle(1000);
+		$("#2").fadeToggle(1000);
+	});
+	$('#l2').on("click", function() {
+		$("#2").fadeToggle(1000);
+		$("#1").fadeToggle(1000);
+	});
+	$('#r2').on("click", function() {
+		$("#2").fadeToggle(1000);
+		$("#3").fadeToggle(1000);
+	});
+	$('#l3').on("click", function() {
+		$("#3").fadeToggle(1000);
+		$("#2").fadeToggle(1000);
+	});
+
+
+});
+
+</script>
+
+</body>
+</html>
