@@ -32,9 +32,12 @@ body {
     text-align: center;
     font-weight: 100;
     background-color: black;
-    position: absolute;
-    left: 2%;
+    position: fixed;
+    left: 10px;
     top: 45%;
+    cursor: pointer;
+    box-sizing:border-box;
+    display: block;
 }
 
 .button_r {
@@ -48,9 +51,12 @@ body {
     line-height: 17px;
     text-align: center;
     font-weight: 100;
-    position: absolute;
-    left: 90%;
+    position: fixed;
+    right: 25px;
     top: 45%;
+    cursor: pointer;
+    box-sizing:border-box;
+    display: block;
 }
 
 .main1 {
