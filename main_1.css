@@ -100,7 +100,7 @@ hr {
 .info_type {
     text-align: left;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: -2%;
     line-height: 60px;
 }
@@ -136,6 +136,10 @@ hr {
 
 .info_card {
 	width:46%;
+}
+
+.info_type {
+	font-size: 50px;
 }
 
 .podcast_image {
