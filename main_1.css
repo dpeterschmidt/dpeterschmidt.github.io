@@ -40,7 +40,7 @@ body > #wrap {
 }
 
 hr {
-	margin: 1% 0%;
+	margin: 1% 0% 0%;
 }
 
 .wrapper {
@@ -102,11 +102,12 @@ hr {
     font-weight: 600;
     font-size: 50px;
     margin-bottom: -2%;
+    line-height: 60px;
 }
 
 .info_headline {
 	text-align: left;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 500;
 }
 
