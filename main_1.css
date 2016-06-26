@@ -21,10 +21,15 @@ body > #wrap {
 }  /* must be same height as the footer */
 
 #footer {
-	position: relative;
-    margin-top: -128px; /* negative value of footer height */
+	/*position: relative;
+    margin-top: -128px;
     height: 128px;
-    clear:both;
+    clear:both;*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	clear: both;
 } 
 
 /* CLEAR FIX*/
