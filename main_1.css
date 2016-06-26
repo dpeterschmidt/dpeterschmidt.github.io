@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, #wrap {
+  	font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #FF8374;
+    height: 100%;
+}
+
+body > #wrap {
+	height: auto; 
+	min-height: 100%;
+}
+
+#main {
+	padding-bottom: 30px;
+}  /* must be same height as the footer */
+
+#footer {position: relative;
+    margin-top: -30px; /* negative value of footer height */
+    height: 30px;
+    clear:both;
+} 
+
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+hr {
+	margin: 1% 0%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+.window {
+	margin: 2%;
+}
+
+.podcast_info {
+
+}
+
+.podcast_image {
+    float: left;
+	padding: 2% 2% 0% 2%;
+    width: 11%;
+}
+
+.podcast_title {
+    text-align: left;
+    padding: 1% 0 0% 0%;
+    font-size: 40px;
+}
+
+.podcast_episode {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+.info_card {
+	background-color: #fda094;
+    display: block;
+    float: left;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+    width: 46%;
+}
+
+.info_picture {
+	float: left;
+	width: 23%;
+    border-radius: 5px;
+}
+
+.not_picture {
+    margin-left: 26%;
+}
+
+.info_type {
+    text-align: left;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: -2%;
+}
+
+.info_headline {
+	text-align: left;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.info_description {
+	text-align: left;
+}
+
+.audio {
+	width: 100%;
+}
+
+/*Tablet*/
+/*@media (min-width: 768px) { 
+
+
+}*/
+
+/*Desktop*/
+/*@media (min-width: 992px) {
+
+
+}*/
+
