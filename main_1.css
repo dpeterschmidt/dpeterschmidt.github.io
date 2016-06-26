@@ -17,12 +17,13 @@ body > #wrap {
 }
 
 #main {
-	padding-bottom: 30px;
+	padding-bottom: 128px;
 }  /* must be same height as the footer */
 
-#footer {position: relative;
-    margin-top: -30px; /* negative value of footer height */
-    height: 30px;
+#footer {
+	position: relative;
+    margin-top: -128px; /* negative value of footer height */
+    height: 128px;
     clear:both;
 } 
 
@@ -82,7 +83,7 @@ hr {
     display: block;
     float: left;
     border-radius: 5px;
-    margin: 2%;
+    margin: 2% 0% 0%;
     padding: 2%;
     width: 96%;
 }
@@ -135,11 +136,11 @@ hr {
 }
 
 .info_card {
-	width:46%;
+	width: 46%;
 }
 
 .info_type {
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .podcast_image {
