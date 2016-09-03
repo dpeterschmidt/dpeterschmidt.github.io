@@ -11,6 +11,12 @@ html, body, #wrap {
     height: 100%;
 }
 
+a {
+	color: white;
+	text-decoration: underline;
+	font-style: italic;
+}
+
 body > #wrap {
 	height: auto; 
 	min-height: 100%;
