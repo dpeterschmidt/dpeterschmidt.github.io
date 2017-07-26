@@ -1,5 +1,19 @@
 /*Phone*/
 
+.round {
+	border-radius: 50%;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.buffer2 {
+	margin: 0% 10%;
+}
+
+.options {
+	width: 100%;
+}
+
 .padding {
 	width: 100%;
 }
@@ -159,6 +173,7 @@ html, body {
   	font-family: 'Lato', sans-serif;
     color: black;
     text-align: center;
+    height: 100%;
 }
 
 h1 {
@@ -181,6 +196,25 @@ h3 {
 	float: left;
 	margin-left: 4%;
 	color: black;
+	opacity: 1;
+
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+h3:hover {
+	opacity: .5;
+
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
 }
 
 h4 {
@@ -203,7 +237,7 @@ h6 {
 }
 
 table {
-	margin: 0% 4% 0% 4%;
+	margin: 0% 4%;
 }
 
 td, th {
@@ -211,6 +245,24 @@ td, th {
 	display: inline-block;
 	margin-top: 1%;
   	margin-bottom: 1%;
+  	opacity: 1;
+
+  	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+td:hover {
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+	opacity: .75;
 }
 
 p {
@@ -218,7 +270,7 @@ p {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-weight: 300;
-	font-size: 1.1875em; /*19/16*/
+	font-size: 1.5em; /*19/16*/
 	padding-left: 3%;
   	padding-right: 3%;
 }
@@ -228,8 +280,26 @@ hr {
 	margin-bottom: 10px;
 }
 
+/*a {
+	opacity: 1;
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}*/
+
 a:hover {
 	text-decoration: none;
+	/*transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+
+    opacity: .75;*/
 }
 
 .desktop {
@@ -264,6 +334,22 @@ a:hover {
 	font-size: 22px;
 	color: black;
 	margin: 0;
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.mob_desc {
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    opacity: .75;
 }
 
 .wrap:hover .description {
@@ -299,8 +385,32 @@ a:hover {
 	background-color: white;
 }
 
+.navbar-default .navbar-nav>li>a {
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
 .navbar-default .navbar-nav>.active>a {
 	font-weight: 600;
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	transition: opacity 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
 }
 
 .header {
@@ -325,6 +435,18 @@ a:hover {
 	padding-bottom: 10px;
 }
 
+.footer-special {
+	font-size: 1.1875em; /*19/16*/
+	font-weight: 300;
+	color: #808080;
+	padding-bottom: 10px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
 .screenshot {
 	width: 80%;
 	margin: 2% 0% 2% 0%;
@@ -335,7 +457,7 @@ a:hover {
 
 .imgmedium {
 	width: 80%;
-	margin: 2% 0% 2% 0%;
+	margin: 2% 0%;
 }
 
 .imglarge {
@@ -403,6 +525,21 @@ h4 {
 .navbar-nav {
 	float: right;
 }
+
+p {
+	margin: 3% 0%;
+ 	padding-left: 0%;
+  	padding-right: 0%;
+}
+
+.buffer {
+	margin: 0% 35% 0% 10%;
+}
+
+.imgmedium {
+	display: block;
+	width: 46%;
+}
 }
 
 /*Desktop*/
@@ -413,14 +550,14 @@ html, body {
 
 h1 {
 	text-align: left;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	margin-top: 3%;
 	padding: 0;
 }
 
 h2 {
 	text-align: left;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	padding: 0;
 }
 
@@ -430,26 +567,20 @@ h4 {
 
 td, th {
 	width: 45%;
-	margin: 2% 2% 2% 2%;
+	margin: 0% 2%;
 }
 
-p {
-	margin-left: 10%;
- 	margin-right: 35%;
- 	margin-top: 1%;
- 	margin-bottom: 1%;
- 	display: inline-block;
- 	padding-left: 0%;
-  	padding-right: 0%;
+.td-special {
+    margin: 0% 2% 4%;
 }
 
-.desktop {
+/*.desktop {
 	display: inherit;
 }
 
 .mobile {
 	display: none;
-}
+}*/
 
 .navbar-nav {
 	float: right;
@@ -457,7 +588,7 @@ p {
 	font-size: 1.1em;
 }
 
-.bsmallr {
+/*.bsmallr {
 	font-size: 4.625em; 
 	color: white;
 	background-color: #4C4C4C;
@@ -510,33 +641,38 @@ p {
 
 .bsmalll:hover, .bsmalll:focus, .bsmalll:active {
 	background-color: #61E685;
-}
+}*/
 
 .screenshot {
-	display: inline-block;
-	width: 37%;
-	margin: 1% 60% 1% 10%;
+	display: block;
+	width: 65%;
+	margin: 2% 0%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: grey; 
 }
 
-.imgmedium {
-	display: inline-block;
+/*.imgmedium {
+	display: block;
 	width: 46%;
-	margin: 1% 60% 1% 10%;
-}
+}*/
 
 .imglarge {
-	display: inline-block;
+	display: block;
 	width: 65%;
-	margin: 1% 25% 1% 10%;
+	margin: 2% 0%;
+}
+
+.imglarge-special {
+	display: block;
+	width: 100%;
+	margin: 2% 0%;
 }
 
 .imgsmall {
-	width: 32%;
-	display: inline-block;
-	margin: 1% 8% 1% -7%;
+	width: 25%;
+	display: block;
+	margin: 2% 0% 2% 8%;
 }
 
 .screenshot_b {
@@ -555,6 +691,10 @@ p {
 .poster_link {
 	padding: 0% 35% 0% 0%;
 }
+
+/*.buffer {
+	margin: 0% 35% 0% 10%;
+}*/
 
 }
 
