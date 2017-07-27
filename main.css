@@ -507,6 +507,10 @@ a:hover {
 	padding: none;
 }
 
+.buffer {
+	margin: 0% 10%;
+}
+
 /*Tablet*/
 @media (min-width: 768px) { 
 
