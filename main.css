@@ -1,5 +1,13 @@
 /*Phone*/
 
+.s-mobile {
+	display: inherit;
+}
+
+.s-desktop {
+	display: none;
+}
+
 .round {
 	border-radius: 50%;
 	width: 20%;
@@ -501,6 +509,14 @@ a:hover {
 
 /*Tablet*/
 @media (min-width: 768px) { 
+
+.s-mobile {
+	display: none;
+}
+
+.s-desktop {
+	display: inherit;
+}
 
 .card {
 	width: 75%;
