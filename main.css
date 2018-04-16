@@ -10,7 +10,7 @@
 
 .round {
 	border-radius: 50%;
-	width: 20%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -560,6 +560,10 @@ a:hover {
     padding: 1% 0%;
 }
 
+.round {
+	width: 50%;
+}
+
 h4 {
 	margin-left: 3%;
 	float: left;
@@ -616,6 +620,10 @@ td, th {
 
 .td-special {
     margin: 0% 2% 4%;
+}
+
+.round {
+	width: 20%;
 }
 
 /*.desktop {
