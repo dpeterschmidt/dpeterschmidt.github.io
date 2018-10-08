@@ -15,6 +15,18 @@
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
+			<!-- Jquery -->
+	<script src="js/thirdparty/jquery.1.10.2.min.js"></script>
+	<script> 
+	    $(function(){
+	      $("#header").load("header.html"); 
+	      $("#header-design").load("header-design.html"); 
+	      $("#header-music").load("header-music.html"); 
+	      $("#header-about").load("header-about.html"); 
+	      $("#footer").load("footer.html"); 
+	    });
+	</script> 
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,28 +41,7 @@
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-	<a href="../index.html"><h3>DANIEL PETERSCHMIDT</h3></a>
-	<div class="navbar-header">
-	<!-- Hamburger button -->
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		    <span class="sr-only">Toggle navigation</span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		</button>
-	</div>
-	<div id = "navbar" class="navbar-collapse collapse">
-	    <ul class="nav navbar-nav">
-	        <li><a href="../music/index.html">MUSIC</a></li>
-	        <li class = "active"><a href="../design/index.html">DESIGN</a></li>
-	        <li><a href="../about.html">ABOUT</a></li>
-	    </ul>   
-	</div>
-</nav>
-
-<hr>
+<div id="header-design"></div>
 
 <div class = "buffer new">
 
@@ -90,17 +81,7 @@
 
 </div>
 
-	<hr>
- 	<div class = "footer">
-	Daniel Peterschmidt © 2018
-	<br>
-	<ul class="soc">
-		<li><a class="soc-linkedin" target = "_blank" href="https://www.linkedin.com/pub/daniel-peterschmidt/48/741/995"></a></li>
-		<li><a class="soc-twitter" target = "_blank" href="https://twitter.com/dpeterschmidt"></a></li>
-		<li><a class="soc-instagram" target = "_blank" href="http://instagram.com/dpeterschmidt/"></a></li>
-		<li><a class="soc-soundcloud" target = "_blank" href="https://soundcloud.com/dpeterschmidt"></a></li>
-	</ul>
-</div>
+<div id="footer"></div>
 
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
